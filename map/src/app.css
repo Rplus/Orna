@@ -1,0 +1,219 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: #535bf2;
+}
+
+body {
+	margin: 0;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color: #213547;
+		background-color: #ffffff;
+	}
+	a:hover {
+		color: #747bff;
+	}
+	button {
+		background-color: #f9f9f9;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0.25em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+input[readonly],
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+dialog {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: unset;
+	right: 0;
+	height: 100vh;
+	margin: unset;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+dialog h3 {
+	margin: .25em 0 .75em;
+	text-align: center;
+	border-bottom: 1px dotted #0003;
+}
+
+ul {
+	padding-inline-start: 1em;
+}
+
+.leaflet-popup-content img {
+	box-shadow: 0 0 1px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.map-box {
+	width: 600px;
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+}
+
+.alt-icon {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50% 50% 50% 0;
+	border: 1px solid #fff;
+	transform: rotate(-45deg);
+	transform-origin: 0% 100%;
+	background-color: var(--icon-color, #ffd);
+}
+
+.alt-icon::before {
+	content: var(--icon-label, "");
+}
+
+.hide-marker .dungeon-icon {
+	display: none;
+}
+
+.dungeon-icon {
+	border-radius: 50%;
+	image-rendering: pixelated;
+	background-color: #ff69;
+	background-image: linear-gradient(#0000, #000);
+	background-size: 2px 5px;
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	box-shadow: inset 0 0 0 1px #0008;
+}
+
+.leaflet-popup-content summary {
+	text-align: right;
+}
+
+.block {
+	display: block;
+}
+
+.flex {
+	display: flex;
+}
+
+label.flex {
+	display: flex;
+	align-items: center;
+	gap: .5em;
+}
+
+label.flex input:not([type="checkbox"]) {
+	flex-grow: 1;
+}
+
+.action-btns-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.leaflet-marker-draggable {
+	filter: sepia(1);
+}
+
+.btn-with-icon {
+	display: inline-flex;
+	width: 2em;
+	height: 2em;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin: 2px 0;
+}
+
+.leaflet-bottom.leaflet-left {
+	z-index: 2000;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	img.leaflet-tile {
+		filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+	}
+}
+

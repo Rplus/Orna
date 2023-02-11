@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A",
+        "type": "dragon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57959938049315,
+          25.04944690610226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "B",
+        "type": "normal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.57925605773926,
+          25.046803116210445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C",
+        "type": "Purple"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61221504211426,
+          25.052673807675912
+        ]
+      }
+    }
+  ]
+}
