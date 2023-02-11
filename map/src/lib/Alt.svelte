@@ -12,16 +12,23 @@
 	import AltCard from './AltCard.svelte';
 	import Dialog from './Dialog.svelte';
 	import { getItem, saveItem, } from './u.js';
-	import { ioHQ } from '../stores.js';
+	import {
+		// alts,
+		ioHQ,
+		map
+	} from '../stores.js';
 
-	let ori_alts = getSavedAlts();
+	let saved_alts = getSavedAlts();
 	let alts = getSavedAlts();
+
+	$: _map = $map && $map.getMap && $map.getMap();
 
 	$: {
 		alts;
-		ori_alts;
-		checkDataChanged()
+		saved_alts;
+		checkDataChanged();
 	}
+
 
 	let altProperties = [
 		// 'color',
@@ -70,13 +77,16 @@
 		console.log('checkDataChanged');
 		for (var i = alts.length - 1; i >= 0; i--) {
 			let altData = pickAltData(alts[i]);
-			alts[i].changed = !lodash.isEqual(ori_alts[i], altData);
+			alts[i].changed = !lodash.isEqual(saved_alts[i], altData);
 		}
 	}
 
-	function saveAlt(markerIndex) {
-		ori_alts[markerIndex] = pickAltData(alts[markerIndex]);
-		saveItem('alts', ori_alts);
+	function saveAlts() {
+		let newAlts = alts.filter(alt => alt && !alt.delete).map(pickAltData);
+		console.log({newAlts});
+		saveItem('alts', newAlts);
+		alts = getSavedAlts();
+		saved_alts = getSavedAlts();
 	}
 
 	function pickAltData(altData) {
@@ -87,8 +97,28 @@
 		return getItem('alts') || [];
 	}
 
+	function createNewAlt(latLng = _map.getCenter()) {
+		return {
+		  label: `alt-${+new Date()}`,
+		  latLng: {
+		    lat: latLng.lat,
+		    lng: latLng.lng,
+		  },
+		  vd: 500
+		}
+	}
+
+	function deleteAlt(index) {
+		let _confirm = window.confirm(`⚠️ Are you sure to delete ${alts[index]?.label}?`);
+		if (_confirm) {
+			alts[index].delete = true;
+			console.log('delete', index, alts);
+			saveAlts();
+		}
+	}
+
 	function add() {
-		console.log('aaadd');
+		alts = alts.concat(createNewAlt());
 	}
 </script>
 
@@ -134,6 +164,11 @@
 						<div>
 							<LatLngInput latLng={alt.latLng} readonly />
 						</div>
+
+						<button on:click={() => deleteAlt(index)} style="color:red; font-weight:900;">
+							❌ DELETE
+						</button>
+
 					</details>
 				</div>
 				</fieldset>
@@ -148,9 +183,9 @@
 
 					<button
 						disabled={!alt.changed}
-						on:click={() => saveAlt(index)}
+						on:click={() => saveAlts(index)}
 					>
-						💾 Save
+						💾 Save All Portals
 					</button>
 				</div>
 
