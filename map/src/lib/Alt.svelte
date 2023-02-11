@@ -196,7 +196,7 @@
 
 
 
-{#if $ioHQ.altDialog}
+{#if $ioHQ.openedPanel === 'alt'}
 	<Dialog>
 		<h3>Portals</h3>
 

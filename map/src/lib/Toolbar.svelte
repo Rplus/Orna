@@ -1,12 +1,15 @@
 <script>
   import {getContext, onDestroy, createEventDispatcher} from 'svelte';
-	import AltCtrl from './AltCtrl.svelte';
-	import CreateCtrl from './CreateCtrl.svelte';
 	import LocateCtrl from './LocateCtrl.svelte';
 	import SettingCtrl from './SettingCtrl.svelte';
 	import ToggleButton from './ToggleButton.svelte';
+	import { ioHQ } from '../stores.js';
 
 	let active = !false;
+
+	function togglePanel(type = '') {
+		$ioHQ.openedPanel = ($ioHQ.openedPanel === type) ? '' : type;
+	}
 
 </script>
 
@@ -15,8 +18,15 @@
 	<div hidden={!active} class="toolbar-menu">
 		<LocateCtrl />
 		<br><br>
-		<CreateCtrl />
-		<AltCtrl />
+		<button
+			class="btn-with-icon leaflet-bar"
+			on:click={() => togglePanel('dungeon')}
+		>🏠</button>
+
+		<button
+			class="btn-with-icon leaflet-bar"
+			on:click={() => togglePanel('alt')}
+		>📍</button>
 		<SettingCtrl />
 		<br><br>
 	</div>
