@@ -1,0 +1,20 @@
+{
+	"scripts": {
+		"parse-pets": "node ./task/guide-parser.mjs type=pets",
+		"parse-items": "node ./task/guide-parser.mjs type=items",
+		"parse-skills": "node ./task/guide-parser.mjs type=skills",
+		"parse-monsters": "node ./task/guide-parser.mjs type=monsters",
+
+		"force-parse-pets": "node ./task/guide-parser.mjs type=pets parse=1",
+		"force-parse-items": "node ./task/guide-parser.mjs type=items parse=1",
+		"force-parse-skills": "node ./task/guide-parser.mjs type=skills parse=1",
+		"force-parse-monsters": "node ./task/guide-parser.mjs type=monsters parse=1",
+
+		"parse": "node ./task/guide-parser.mjs"
+	},
+	"devDependencies": {
+		"jsdom": "^20.0.3",
+		"node-fetch": "^3.3.0",
+		"node-html-parser": "^6.1.4"
+	}
+}

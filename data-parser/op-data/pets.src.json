@@ -1,0 +1,7583 @@
+[
+  {
+    "id": 2,
+    "cate": "pets",
+    "codex": "/followers/crow/",
+    "title": "Crow",
+    "tier": 0,
+    "intro": "A tamed crow. It has a small chance of boosting your speed in battle.",
+    "price": 15000,
+    "props": [
+      {
+        "attack chance": "20%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 731,
+            "cate": "skills",
+            "name": "Peck"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cate": "pets",
+    "codex": "/followers/dog/",
+    "title": "Dog",
+    "tier": 0,
+    "intro": "A traveler's best friend.",
+    "price": 15000,
+    "props": [
+      {
+        "attack chance": "50%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 37,
+            "cate": "skills",
+            "name": "Charge"
+          },
+          {
+            "id": 41,
+            "cate": "skills",
+            "name": "Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cate": "pets",
+    "codex": "/followers/lesser-red-slime/",
+    "title": "Lesser Red Slime",
+    "tier": 0,
+    "intro": "A tamed red slime. It is not very powerful, but may assist you in battle with fire magic.",
+    "price": 15000,
+    "props": [
+      {
+        "attack chance": "90%"
+      },
+      {
+        "spell chance": "50%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 39,
+            "cate": "skills",
+            "name": "Flame"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cate": "pets",
+    "codex": "/followers/lesser-slime/",
+    "title": "Lesser Slime",
+    "tier": 0,
+    "intro": "A tamed slime. It is not very powerful, but may assist you in battle.",
+    "price": 10000,
+    "props": [
+      {
+        "attack chance": "90%"
+      },
+      {
+        "abilities": "Attack"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cate": "pets",
+    "codex": "/followers/bat/",
+    "title": "Bat",
+    "tier": 0,
+    "intro": "A tamed bat. It can drain HP from your enemies in battle.",
+    "price": 37500,
+    "props": [
+      {
+        "attack chance": "100%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 48,
+            "cate": "skills",
+            "name": "Drain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "cate": "pets",
+    "codex": "/followers/bear/",
+    "title": "Bear",
+    "tier": 0,
+    "intro": "A wild bear. It will frequently attack your enemies.",
+    "price": 25000,
+    "props": [
+      {
+        "attack chance": "40%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": "Attack"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "cate": "pets",
+    "codex": "/followers/evil-eye/",
+    "title": "Evil Eye",
+    "tier": 0,
+    "intro": "A strange floating eye. It seems to know rudimentary magic.",
+    "price": 62500,
+    "props": [
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 39,
+            "cate": "skills",
+            "name": "Flame"
+          },
+          {
+            "id": 40,
+            "cate": "skills",
+            "name": "Frost"
+          },
+          {
+            "id": 45,
+            "cate": "skills",
+            "name": "Spark"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "cate": "pets",
+    "codex": "/followers/lesser-golem/",
+    "title": "Lesser Golem",
+    "tier": 0,
+    "intro": "A tamed golem. It will cast protection on you in battle.",
+    "price": 37500,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "25%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 62,
+            "cate": "skills",
+            "name": "Protection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cate": "pets",
+    "codex": "/followers/snake/",
+    "title": "Snake",
+    "tier": 0,
+    "intro": "A tamed snake. Occasionally, it can poison your opponents in battle.",
+    "price": 37500,
+    "props": [
+      {
+        "attack chance": "90%"
+      },
+      {
+        "debuff chance": "25%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 61,
+            "cate": "skills",
+            "name": "Poison"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cate": "pets",
+    "codex": "/followers/wolf/",
+    "title": "Wolf",
+    "tier": 0,
+    "intro": "A tamed wolf. It will often attack your enemies in battle.",
+    "price": 25000,
+    "props": [
+      {
+        "attack chance": "50%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 55,
+            "cate": "skills",
+            "name": "Great Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "cate": "pets",
+    "codex": "/followers/draugr-mage/",
+    "title": "Draugr Mage",
+    "tier": 0,
+    "intro": "A draugr of certain magical ability.",
+    "price": 150000,
+    "props": [
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 52,
+            "cate": "skills",
+            "name": "Flame II"
+          },
+          {
+            "id": 54,
+            "cate": "skills",
+            "name": "Frost II"
+          },
+          {
+            "id": 66,
+            "cate": "skills",
+            "name": "Spark II"
+          },
+          {
+            "id": 111,
+            "cate": "skills",
+            "name": "Tremor II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "cate": "pets",
+    "codex": "/followers/fairy/",
+    "title": "Fairy",
+    "tier": 0,
+    "intro": "A magic fairy. It will heal you in battle.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "heal chance": "25%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 41,
+            "cate": "skills",
+            "name": "Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "cate": "pets",
+    "codex": "/followers/ghost/",
+    "title": "Ghost",
+    "tier": 0,
+    "intro": "A spooky ghost. It may put your opponent to sleep.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "20%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "cate": "pets",
+    "codex": "/followers/gnome/",
+    "title": "Gnome",
+    "tier": 0,
+    "intro": "A gnome. It can assist you in battle with its spells.",
+    "price": 200000,
+    "props": [
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 39,
+            "cate": "skills",
+            "name": "Flame"
+          },
+          {
+            "id": 52,
+            "cate": "skills",
+            "name": "Flame II"
+          },
+          {
+            "id": 40,
+            "cate": "skills",
+            "name": "Frost"
+          },
+          {
+            "id": 54,
+            "cate": "skills",
+            "name": "Frost II"
+          },
+          {
+            "id": 45,
+            "cate": "skills",
+            "name": "Spark"
+          },
+          {
+            "id": 66,
+            "cate": "skills",
+            "name": "Spark II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "cate": "pets",
+    "codex": "/followers/hellhound/",
+    "title": "Hellhound",
+    "tier": 0,
+    "intro": "A tamed hellhound. Can assist in battle with attacks and fire magic.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          },
+          {
+            "id": 52,
+            "cate": "skills",
+            "name": "Flame II"
+          },
+          {
+            "id": 76,
+            "cate": "skills",
+            "name": "Mute"
+          },
+          {
+            "id": 85,
+            "cate": "skills",
+            "name": "Threaten"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "cate": "pets",
+    "codex": "/followers/imp/",
+    "title": "Imp",
+    "tier": 0,
+    "intro": "A tamed imp. Will occasionally boost your attack.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "25%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 67,
+            "cate": "skills",
+            "name": "Warcry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "cate": "pets",
+    "codex": "/followers/lizarr/",
+    "title": "Lizarr",
+    "tier": 0,
+    "intro": "A tamed, yet aggressive lizarr warrior. It will attack your enemies in battle.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "cate": "pets",
+    "codex": "/followers/lobster/",
+    "title": "Lobster",
+    "tier": 0,
+    "intro": "A lobster. It can cause your opponents to bleed while slightly healing you.",
+    "price": 125000,
+    "props": [
+      {
+        "heal chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 35,
+            "cate": "skills",
+            "name": "Bleed"
+          },
+          {
+            "id": 459,
+            "cate": "skills",
+            "name": "Guts"
+          },
+          {
+            "id": 41,
+            "cate": "skills",
+            "name": "Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "cate": "pets",
+    "codex": "/followers/mimic/",
+    "title": "Mimic",
+    "tier": 0,
+    "intro": "A mimic. What it is capable of is unknown.",
+    "price": 250000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "heal chance": "5%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 185,
+            "cate": "skills",
+            "name": "Focus"
+          },
+          {
+            "id": 41,
+            "cate": "skills",
+            "name": "Heal"
+          },
+          {
+            "id": 59,
+            "cate": "skills",
+            "name": "Magic Boost"
+          },
+          {
+            "id": 60,
+            "cate": "skills",
+            "name": "Magic Shield"
+          },
+          {
+            "id": 61,
+            "cate": "skills",
+            "name": "Poison"
+          },
+          {
+            "id": 62,
+            "cate": "skills",
+            "name": "Protection"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          },
+          {
+            "id": 67,
+            "cate": "skills",
+            "name": "Warcry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "cate": "pets",
+    "codex": "/followers/zu/",
+    "title": "Zu",
+    "tier": 0,
+    "intro": "A tamed Zu. It has a small chance of boosting your speed in battle.",
+    "price": 75000,
+    "props": [
+      {
+        "attack chance": "20%"
+      },
+      {
+        "buff chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 731,
+            "cate": "skills",
+            "name": "Peck"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "cate": "pets",
+    "codex": "/followers/alfar/",
+    "title": "Alfar",
+    "tier": 0,
+    "intro": "A small follower of Scruug. Available for a limited time only.",
+    "event": "LIMITED: A Year's End (December)",
+    "price": 250000,
+    "props": [
+      {
+        "attack chance": "90%"
+      },
+      {
+        "heal chance": "8%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 176,
+            "cate": "skills",
+            "name": "Double Edge"
+          },
+          {
+            "id": 300,
+            "cate": "skills",
+            "name": "Ward of Iron"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "cate": "pets",
+    "codex": "/followers/cactus/",
+    "title": "Cactus",
+    "tier": 0,
+    "intro": "A live cactus. It can assist you in battle with barrages of needles.",
+    "price": 200000,
+    "props": [
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 134,
+            "cate": "skills",
+            "name": "Arrowstorm"
+          },
+          {
+            "id": 445,
+            "cate": "skills",
+            "name": "Arrowstorm II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "cate": "pets",
+    "codex": "/followers/drake/",
+    "title": "Drake",
+    "tier": 0,
+    "intro": "A tamed Drake. It will occasionally summon meteor against your enemies.",
+    "price": 150000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 75,
+            "cate": "skills",
+            "name": "Meteor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "cate": "pets",
+    "codex": "/followers/fae/",
+    "title": "Fae",
+    "tier": 0,
+    "intro": "A great magic fairy. It will cure your status effects in battle.",
+    "price": 450000,
+    "props": [
+      {
+        "heal chance": "25%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 258,
+            "cate": "skills",
+            "name": "Cure Bleeding"
+          },
+          {
+            "id": 259,
+            "cate": "skills",
+            "name": "Cure Blindness"
+          },
+          {
+            "id": 260,
+            "cate": "skills",
+            "name": "Cure Burn"
+          },
+          {
+            "id": 261,
+            "cate": "skills",
+            "name": "Cure Frozen"
+          },
+          {
+            "id": 262,
+            "cate": "skills",
+            "name": "Cure Paralysis"
+          },
+          {
+            "id": 263,
+            "cate": "skills",
+            "name": "Cure Poison"
+          },
+          {
+            "id": 41,
+            "cate": "skills",
+            "name": "Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "cate": "pets",
+    "codex": "/followers/gazer/",
+    "title": "Gazer",
+    "tier": 0,
+    "intro": "The storied gazer. It utilizes lightning magic in battle.",
+    "price": 200000,
+    "props": [
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 66,
+            "cate": "skills",
+            "name": "Spark II"
+          },
+          {
+            "id": 83,
+            "cate": "skills",
+            "name": "Storm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "cate": "pets",
+    "codex": "/followers/great-bear/",
+    "title": "Great Bear",
+    "tier": 0,
+    "intro": "A very mighty bear. It can lend you its might, but at the cost of your defenses.",
+    "price": 150000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 95,
+            "cate": "skills",
+            "name": "Bear's Might"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "cate": "pets",
+    "codex": "/followers/horse/",
+    "title": "Horse",
+    "tier": 0,
+    "intro": "A trusty steed. It can assist one in battle with offensive skills and boosts to one's dexterity.",
+    "price": 250000,
+    "props": [
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 143,
+            "cate": "skills",
+            "name": "Mighty Charge"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "cate": "pets",
+    "codex": "/followers/living-armor/",
+    "title": "Living Armor",
+    "tier": 0,
+    "intro": "An animated piece of armor. It will help in party combat by drawing enemy attention to you while recovering Ward.",
+    "price": 350000,
+    "props": [
+      {
+        "heal chance": "12%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "22%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 309,
+            "cate": "skills",
+            "name": "Fortify"
+          },
+          {
+            "id": 303,
+            "cate": "skills",
+            "name": "Magic Sword"
+          },
+          {
+            "id": 311,
+            "cate": "skills",
+            "name": "Mend Wall"
+          },
+          {
+            "id": 691,
+            "cate": "skills",
+            "name": "Provoke"
+          },
+          {
+            "id": 301,
+            "cate": "skills",
+            "name": "Rampart"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "cate": "pets",
+    "codex": "/followers/living-dagger/",
+    "title": "Living Dagger",
+    "tier": 0,
+    "intro": "An animated dagger. It will attack frequently with a magical blade.",
+    "price": 150000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 297,
+            "cate": "skills",
+            "name": "Magic Dagger"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "cate": "pets",
+    "codex": "/followers/living-hammer/",
+    "title": "Living Hammer",
+    "tier": 0,
+    "intro": "An animated hammer. It will attack frequently with a magical hammer face.",
+    "price": 150000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 302,
+            "cate": "skills",
+            "name": "Magic Hammer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "cate": "pets",
+    "codex": "/followers/living-sword/",
+    "title": "Living Sword",
+    "tier": 0,
+    "intro": "An animated sword. It will attack frequently with a magical blade.",
+    "price": 150000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 303,
+            "cate": "skills",
+            "name": "Magic Sword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "cate": "pets",
+    "codex": "/followers/seer/",
+    "title": "Seer",
+    "tier": 0,
+    "intro": "A seer of Ra. It can blind an opponent in battle.",
+    "price": 200000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 36,
+            "cate": "skills",
+            "name": "Bolt"
+          },
+          {
+            "id": 567,
+            "cate": "skills",
+            "name": "Flash"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "cate": "pets",
+    "codex": "/followers/surtrs-flame/",
+    "title": "Surtr's Flame",
+    "tier": 0,
+    "intro": "Available for a limited time only, this massive flame can ensure your opponent is always lit ablaze.",
+    "event": "LIMITED: Nothren Legends Event, July 2021",
+    "price": 250000,
+    "props": [
+      {
+        "buff chance": "8%"
+      },
+      {
+        "debuff chance": "50%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 467,
+            "cate": "skills",
+            "name": "Fey Flame"
+          },
+          {
+            "id": 126,
+            "cate": "skills",
+            "name": "Fire Wall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "cate": "pets",
+    "codex": "/followers/wisp/",
+    "title": "Wisp",
+    "tier": 0,
+    "intro": "A strange floating ball of energy. It is quite proficient at healing its allies.",
+    "price": 150000,
+    "props": [
+      {
+        "heal chance": "20%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 106,
+            "cate": "skills",
+            "name": "Wisp's Heal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "cate": "pets",
+    "codex": "/followers/yeti/",
+    "title": "Yeti",
+    "tier": 0,
+    "intro": "The storied yeti. Can boost your defenses in battle while assisting you with ice magic.",
+    "price": 300000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "buff chance": "30%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 40,
+            "cate": "skills",
+            "name": "Frost"
+          },
+          {
+            "id": 57,
+            "cate": "skills",
+            "name": "Icestrike"
+          },
+          {
+            "id": 60,
+            "cate": "skills",
+            "name": "Magic Shield"
+          },
+          {
+            "id": 62,
+            "cate": "skills",
+            "name": "Protection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "cate": "pets",
+    "codex": "/followers/yokai/",
+    "title": "Yokai",
+    "tier": 0,
+    "intro": "The storied Yokai is a master of sleep and that of nightmares.",
+    "price": 200000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "cate": "pets",
+    "codex": "/followers/age-old-mimic/",
+    "title": "Age-Old Mimic",
+    "tier": 0,
+    "intro": "???",
+    "event": "LIMITED: The Mimics are Loose Event, September 2020",
+    "price": 875000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 233,
+            "cate": "skills",
+            "name": "Anthem of Avalon"
+          },
+          {
+            "id": 563,
+            "cate": "skills",
+            "name": "Fey Flame II"
+          },
+          {
+            "id": 564,
+            "cate": "skills",
+            "name": "Fey Frost II"
+          },
+          {
+            "id": 565,
+            "cate": "skills",
+            "name": "Fey Spark II"
+          },
+          {
+            "id": 566,
+            "cate": "skills",
+            "name": "Fey Tremor II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "cate": "pets",
+    "codex": "/followers/apollyons-pupil-dde6d90b/",
+    "title": "Apollyon's Pupil",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 625000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 592,
+            "cate": "skills",
+            "name": "Lightning Alignment"
+          },
+          {
+            "id": 151,
+            "cate": "skills",
+            "name": "Lightningstrike II"
+          },
+          {
+            "id": 272,
+            "cate": "skills",
+            "name": "Spark IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "cate": "pets",
+    "codex": "/followers/apollyons-pupil/",
+    "title": "Apollyon's Pupil",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 625000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 591,
+            "cate": "skills",
+            "name": "Earth Alignment"
+          },
+          {
+            "id": 147,
+            "cate": "skills",
+            "name": "Earthstrike II"
+          },
+          {
+            "id": 273,
+            "cate": "skills",
+            "name": "Tremor IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "cate": "pets",
+    "codex": "/followers/apollyons-pupil-e453d6d9/",
+    "title": "Apollyon's Pupil",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 625000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 276,
+            "cate": "skills",
+            "name": "Frost IV"
+          },
+          {
+            "id": 594,
+            "cate": "skills",
+            "name": "Ice Alignment"
+          },
+          {
+            "id": 150,
+            "cate": "skills",
+            "name": "Icestrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "cate": "pets",
+    "codex": "/followers/apollyons-pupil-9d70a08e/",
+    "title": "Apollyon's Pupil",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 625000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 593,
+            "cate": "skills",
+            "name": "Fire Alignment"
+          },
+          {
+            "id": 148,
+            "cate": "skills",
+            "name": "Firestrike II"
+          },
+          {
+            "id": 275,
+            "cate": "skills",
+            "name": "Flame IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "cate": "pets",
+    "codex": "/followers/banshee/",
+    "title": "Banshee",
+    "tier": 0,
+    "intro": "The reason one would want a banshee with them is still quite unknown.",
+    "price": 375000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "cate": "pets",
+    "codex": "/followers/dark-slime/",
+    "title": "Dark Slime",
+    "tier": 0,
+    "intro": "A slime of the darkest variable. It can blind your opponent and use dark magic.",
+    "price": 500000,
+    "props": [
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 65,
+            "cate": "skills",
+            "name": "Smoke Bomb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "cate": "pets",
+    "codex": "/followers/earthen-dragon/",
+    "title": "Earthen Dragon",
+    "tier": 0,
+    "intro": "A dragon with the power of the earth. It can imbue your weapon with earthen power and cast earthen magic.",
+    "price": 500000,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 116,
+            "cate": "skills",
+            "name": "Imbue Earth"
+          },
+          {
+            "id": 635,
+            "cate": "skills",
+            "name": "Natura"
+          },
+          {
+            "id": 63,
+            "cate": "skills",
+            "name": "Quake"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cate": "pets",
+    "codex": "/followers/elder-gnome/",
+    "title": "Elder Gnome",
+    "tier": 0,
+    "intro": "An experienced gnome who brings unstable magic into battle.",
+    "price": 750000,
+    "props": [
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 87,
+            "cate": "skills",
+            "name": "Fulmination"
+          },
+          {
+            "id": 88,
+            "cate": "skills",
+            "name": "Glacier"
+          },
+          {
+            "id": 90,
+            "cate": "skills",
+            "name": "Inferno"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "cate": "pets",
+    "codex": "/followers/fire-dragon/",
+    "title": "Fire Dragon",
+    "tier": 0,
+    "intro": "A dragon with the power of the inferno. It can imbue your weapon with fire and cast fire magic.",
+    "price": 500000,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 115,
+            "cate": "skills",
+            "name": "Imbue Fire"
+          },
+          {
+            "id": 75,
+            "cate": "skills",
+            "name": "Meteor"
+          },
+          {
+            "id": 632,
+            "cate": "skills",
+            "name": "Wildfire"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cate": "pets",
+    "codex": "/followers/gargoyle/",
+    "title": "Gargoyle",
+    "tier": 0,
+    "intro": "A living gargoyle. It can assist in battle by rarely petrifying your opponent.",
+    "price": 375000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 170,
+            "cate": "skills",
+            "name": "Petrify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "cate": "pets",
+    "codex": "/followers/gheist/",
+    "title": "Gheist",
+    "tier": 0,
+    "intro": "A spooky gheist. It may put your opponent to sleep.",
+    "price": 500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "debuff chance": "23%"
+      },
+      {
+        "spell chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 70,
+            "cate": "skills",
+            "name": "Darkstrike"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "cate": "pets",
+    "codex": "/followers/greater-lobster/",
+    "title": "Greater Lobster",
+    "tier": 0,
+    "intro": "A green lobster. It can cause your opponents to bleed while slightly healing you.",
+    "price": 750000,
+    "props": [
+      {
+        "heal chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 35,
+            "cate": "skills",
+            "name": "Bleed"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 459,
+            "cate": "skills",
+            "name": "Guts"
+          },
+          {
+            "id": 77,
+            "cate": "skills",
+            "name": "Osmostrike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "cate": "pets",
+    "codex": "/followers/ice-dragon/",
+    "title": "Ice Dragon",
+    "tier": 0,
+    "intro": "A dragon with the power of the cold. It can imbue your weapon with ice and cast ice magic.",
+    "price": 500000,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 69,
+            "cate": "skills",
+            "name": "Blizzard"
+          },
+          {
+            "id": 114,
+            "cate": "skills",
+            "name": "Imbue Ice"
+          },
+          {
+            "id": 633,
+            "cate": "skills",
+            "name": "Winter Wind"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "cate": "pets",
+    "codex": "/followers/kin-of-kerberos/",
+    "title": "Kin of Kerberos",
+    "tier": 0,
+    "intro": "Arisen from the deep depths of the underworld. Available for a limited time only.",
+    "event": "LIMITED: Rise of Kerberos Event, February 2022",
+    "price": 750000,
+    "props": [
+      {
+        "attack chance": "7%"
+      },
+      {
+        "buff chance": "15%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 591,
+            "cate": "skills",
+            "name": "Earth Alignment"
+          },
+          {
+            "id": 593,
+            "cate": "skills",
+            "name": "Fire Alignment"
+          },
+          {
+            "id": 594,
+            "cate": "skills",
+            "name": "Ice Alignment"
+          },
+          {
+            "id": 592,
+            "cate": "skills",
+            "name": "Lightning Alignment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "cate": "pets",
+    "codex": "/followers/lotan-coiled-one/",
+    "title": "Lotan, Coiled One",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 875000,
+    "props": [
+      {
+        "debuff chance": "15%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 96,
+            "cate": "skills",
+            "name": "Blightstrike"
+          },
+          {
+            "id": 706,
+            "cate": "skills",
+            "name": "Drakeblight"
+          },
+          {
+            "id": 709,
+            "cate": "skills",
+            "name": "Earthblight"
+          },
+          {
+            "id": 160,
+            "cate": "skills",
+            "name": "Multi-tremor"
+          },
+          {
+            "id": 112,
+            "cate": "skills",
+            "name": "Tremor III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "cate": "pets",
+    "codex": "/followers/odok/",
+    "title": "Odok",
+    "tier": 0,
+    "intro": "The decrepit Odok. It will frequently assist you in battle.",
+    "price": 500000,
+    "props": [
+      {
+        "attack chance": "50%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 70,
+            "cate": "skills",
+            "name": "Darkstrike"
+          },
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "cate": "pets",
+    "codex": "/followers/scruug/",
+    "title": "Scruug",
+    "tier": 0,
+    "intro": "An apparition of greed and envy. Available for a limited time only.",
+    "event": "LIMITED: A Year's End Event, December 2020",
+    "price": 875000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 366,
+            "cate": "skills",
+            "name": "Miasma"
+          },
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          },
+          {
+            "id": 633,
+            "cate": "skills",
+            "name": "Winter Wind"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "cate": "pets",
+    "codex": "/followers/sluagh/",
+    "title": "Sluagh",
+    "tier": 0,
+    "intro": "A shrouded Sluagh. It utilizes dark magic in battle.",
+    "price": 625000,
+    "props": [
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 219,
+            "cate": "skills",
+            "name": "Shadow"
+          },
+          {
+            "id": 220,
+            "cate": "skills",
+            "name": "Shadow II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "cate": "pets",
+    "codex": "/followers/storm-dragon/",
+    "title": "Storm Dragon",
+    "tier": 0,
+    "intro": "A dragon with the power of the clouds above. It can imbue your weapon with lightning and cast lightning magic.",
+    "price": 500000,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 634,
+            "cate": "skills",
+            "name": "Chain Lightning"
+          },
+          {
+            "id": 113,
+            "cate": "skills",
+            "name": "Imbue Lightning"
+          },
+          {
+            "id": 83,
+            "cate": "skills",
+            "name": "Storm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "cate": "pets",
+    "codex": "/followers/aegir/",
+    "title": "Aegir",
+    "tier": 0,
+    "intro": "A great giant.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "10%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 826,
+            "cate": "skills",
+            "name": "Giant's Lesser Wall"
+          },
+          {
+            "id": 827,
+            "cate": "skills",
+            "name": "Giant's Protection"
+          },
+          {
+            "id": 547,
+            "cate": "skills",
+            "name": "Magic Sword II"
+          },
+          {
+            "id": 812,
+            "cate": "skills",
+            "name": "Rock Toss"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "cate": "pets",
+    "codex": "/followers/arcane-flame/",
+    "title": "Arcane Flame",
+    "tier": 0,
+    "intro": "A flame of arcane power. It can assist one in battle with both arcane and dragon magic.",
+    "price": 1250000,
+    "props": [
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 166,
+            "cate": "skills",
+            "name": "Arcana"
+          },
+          {
+            "id": 167,
+            "cate": "skills",
+            "name": "Arcana II"
+          },
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "cate": "pets",
+    "codex": "/followers/archimedes/",
+    "title": "Archimedes",
+    "tier": 0,
+    "intro": "Available for a limited time only: a companion of Merlin, this great bird can assist one in battle by increasing magical potential.",
+    "event": "LIMITED: Merlin Event, August 2020",
+    "price": 2250000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          },
+          {
+            "id": 467,
+            "cate": "skills",
+            "name": "Fey Flame"
+          },
+          {
+            "id": 562,
+            "cate": "skills",
+            "name": "Fey Frost"
+          },
+          {
+            "id": 466,
+            "cate": "skills",
+            "name": "Fey Spark"
+          },
+          {
+            "id": 561,
+            "cate": "skills",
+            "name": "Fey Tremor"
+          },
+          {
+            "id": 241,
+            "cate": "skills",
+            "name": "Great Meditation"
+          },
+          {
+            "id": 267,
+            "cate": "skills",
+            "name": "Ponder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "cate": "pets",
+    "codex": "/followers/balor-flame/",
+    "title": "Balor Flame",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Balor Invades (November)",
+    "price": 1500000,
+    "props": [
+      {
+        "spell chance": "25%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 275,
+            "cate": "skills",
+            "name": "Flame IV"
+          },
+          {
+            "id": 157,
+            "cate": "skills",
+            "name": "Multi-flame"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "cate": "pets",
+    "codex": "/followers/balor-worm/",
+    "title": "Balor Worm",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Balor Invades (November)",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "15%"
+      },
+      {
+        "spell chance": "7%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 91,
+            "cate": "skills",
+            "name": "Magic Shield II"
+          },
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 79,
+            "cate": "skills",
+            "name": "Protection II"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "cate": "pets",
+    "codex": "/followers/basilisk/",
+    "title": "Basilisk",
+    "tier": 0,
+    "intro": "A tamed basilisk. It is well versed at the art of poison.",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "debuff chance": "20%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 37,
+            "cate": "skills",
+            "name": "Charge"
+          },
+          {
+            "id": 42,
+            "cate": "skills",
+            "name": "Lunge"
+          },
+          {
+            "id": 61,
+            "cate": "skills",
+            "name": "Poison"
+          },
+          {
+            "id": 43,
+            "cate": "skills",
+            "name": "Poisonstrike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "cate": "pets",
+    "codex": "/followers/castor/",
+    "title": "Castor",
+    "tier": 0,
+    "intro": "Available for a limited time: the terrible twin Castor can assist you in battle with great elemental resistance.",
+    "event": "LIMITED: The Dioscuri Event, May 2020",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 223,
+            "cate": "skills",
+            "name": "Glacier II"
+          },
+          {
+            "id": 158,
+            "cate": "skills",
+            "name": "Multi-frost"
+          },
+          {
+            "id": 136,
+            "cate": "skills",
+            "name": "Prism Wall"
+          },
+          {
+            "id": 308,
+            "cate": "skills",
+            "name": "Ward of Steel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "cate": "pets",
+    "codex": "/followers/cruel-banshee/",
+    "title": "Cruel Banshee",
+    "tier": 0,
+    "intro": "The reason one would want a banshee with them is still quite unknown. Available for a limited time only.",
+    "event": "LIMITED: Balor Invades (November)",
+    "price": 1250000,
+    "props": [
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 70,
+            "cate": "skills",
+            "name": "Darkstrike"
+          },
+          {
+            "id": 680,
+            "cate": "skills",
+            "name": "Impale (Off-hand)"
+          },
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "cate": "pets",
+    "codex": "/followers/death-worm/",
+    "title": "Death Worm",
+    "tier": 0,
+    "intro": "The revered Death Worm of the sands. It can harden your defenses while casting Earthen magic.",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "30%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 91,
+            "cate": "skills",
+            "name": "Magic Shield II"
+          },
+          {
+            "id": 160,
+            "cate": "skills",
+            "name": "Multi-tremor"
+          },
+          {
+            "id": 79,
+            "cate": "skills",
+            "name": "Protection II"
+          },
+          {
+            "id": 273,
+            "cate": "skills",
+            "name": "Tremor IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "cate": "pets",
+    "codex": "/followers/fey-gazer/",
+    "title": "Fey Gazer",
+    "tier": 0,
+    "intro": "A gazer lost to the curse of Morrigan. Available for a limited time only.",
+    "event": "LIMITED: Sisters of Morrigan Event, November 2020",
+    "price": 2250000,
+    "props": [
+      {
+        "attack chance": "4%"
+      },
+      {
+        "buff chance": "4%"
+      },
+      {
+        "debuff chance": "4%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 173,
+            "cate": "skills",
+            "name": "Arcane Strikes"
+          },
+          {
+            "id": 467,
+            "cate": "skills",
+            "name": "Fey Flame"
+          },
+          {
+            "id": 562,
+            "cate": "skills",
+            "name": "Fey Frost"
+          },
+          {
+            "id": 466,
+            "cate": "skills",
+            "name": "Fey Spark"
+          },
+          {
+            "id": 561,
+            "cate": "skills",
+            "name": "Fey Tremor"
+          },
+          {
+            "id": 171,
+            "cate": "skills",
+            "name": "Mindblast"
+          },
+          {
+            "id": 307,
+            "cate": "skills",
+            "name": "Super Bomb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "cate": "pets",
+    "codex": "/followers/great-jinn/",
+    "title": "Great Jinn",
+    "tier": 0,
+    "intro": "A magical Jinn. It can cast unstable magic while turning the tide of battle.",
+    "price": 2000000,
+    "props": [
+      {
+        "debuff chance": "10%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 86,
+            "cate": "skills",
+            "name": "Cataclysm"
+          },
+          {
+            "id": 242,
+            "cate": "skills",
+            "name": "Distortion"
+          },
+          {
+            "id": 87,
+            "cate": "skills",
+            "name": "Fulmination"
+          },
+          {
+            "id": 88,
+            "cate": "skills",
+            "name": "Glacier"
+          },
+          {
+            "id": 90,
+            "cate": "skills",
+            "name": "Inferno"
+          },
+          {
+            "id": 171,
+            "cate": "skills",
+            "name": "Mindblast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "cate": "pets",
+    "codex": "/followers/greater-yokai/",
+    "title": "Greater Yokai",
+    "tier": 0,
+    "intro": "A tricky Yokai. It has a chance of causing an opponent one of many ailments.",
+    "price": 2250000,
+    "props": [
+      {
+        "debuff chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 53,
+            "cate": "skills",
+            "name": "Freeze"
+          },
+          {
+            "id": 61,
+            "cate": "skills",
+            "name": "Poison"
+          },
+          {
+            "id": 64,
+            "cate": "skills",
+            "name": "Shock"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          },
+          {
+            "id": 65,
+            "cate": "skills",
+            "name": "Smoke Bomb"
+          },
+          {
+            "id": 84,
+            "cate": "skills",
+            "name": "Stun Dart"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "cate": "pets",
+    "codex": "/followers/harpy/",
+    "title": "Harpy",
+    "tier": 0,
+    "intro": "A happily singing harpy. It can assist you in battle by improving your dexterity or causing an opponent to be lulled asleep.",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "20%"
+      },
+      {
+        "debuff chance": "7%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 636,
+            "cate": "skills",
+            "name": "Haste"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "cate": "pets",
+    "codex": "/followers/lindworm/",
+    "title": "Lindworm",
+    "tier": 0,
+    "intro": "A mythical serpent capable of carrying out the majesty's desired executions. Available for a limited time only.",
+    "event": "LIMITED: Lyonesse Legends event, August 2021",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "debuff chance": "1%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 620,
+            "cate": "skills",
+            "name": "Lyon's Execution"
+          },
+          {
+            "id": 619,
+            "cate": "skills",
+            "name": "Lyon's Mark"
+          },
+          {
+            "id": 551,
+            "cate": "skills",
+            "name": "Magic Arrow II"
+          },
+          {
+            "id": 550,
+            "cate": "skills",
+            "name": "Magic Dagger II"
+          },
+          {
+            "id": 548,
+            "cate": "skills",
+            "name": "Magic Hammer II"
+          },
+          {
+            "id": 547,
+            "cate": "skills",
+            "name": "Magic Sword II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "cate": "pets",
+    "codex": "/followers/llamrai/",
+    "title": "Llamrai",
+    "tier": 0,
+    "intro": "The divine horse of Avalon. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 1250000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "heal chance": "7%"
+      },
+      {
+        "buff chance": "7%"
+      },
+      {
+        "spell chance": "7%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 235,
+            "cate": "skills",
+            "name": "Blessed Shield"
+          },
+          {
+            "id": 236,
+            "cate": "skills",
+            "name": "Cleanse"
+          },
+          {
+            "id": 238,
+            "cate": "skills",
+            "name": "Smite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "cate": "pets",
+    "codex": "/followers/minotaur/",
+    "title": "Minotaur",
+    "tier": 0,
+    "intro": "A certainly powerful ally.",
+    "price": 750000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 85,
+            "cate": "skills",
+            "name": "Threaten"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "cate": "pets",
+    "codex": "/followers/naggeneen/",
+    "title": "Naggeneen",
+    "tier": 0,
+    "intro": "Oh, the foul fairy Naggeneen. Available for a limited time.",
+    "event": "LIMITED: Mischievous Naggeneen Event, March 2021",
+    "price": 1500000,
+    "props": [
+      {
+        "debuff chance": "4%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 216,
+            "cate": "skills",
+            "name": "Blightstrike II"
+          },
+          {
+            "id": 366,
+            "cate": "skills",
+            "name": "Miasma"
+          },
+          {
+            "id": 43,
+            "cate": "skills",
+            "name": "Poisonstrike"
+          },
+          {
+            "id": 165,
+            "cate": "skills",
+            "name": "Quick Attack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "cate": "pets",
+    "codex": "/followers/orthrus/",
+    "title": "Orthrus",
+    "tier": 0,
+    "intro": "The unrelenting Orthrus.",
+    "price": 1750000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 225,
+            "cate": "skills",
+            "name": "Bite"
+          },
+          {
+            "id": 37,
+            "cate": "skills",
+            "name": "Charge"
+          },
+          {
+            "id": 71,
+            "cate": "skills",
+            "name": "Doublecut"
+          },
+          {
+            "id": 226,
+            "cate": "skills",
+            "name": "Scratch"
+          },
+          {
+            "id": 94,
+            "cate": "skills",
+            "name": "Tricut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "cate": "pets",
+    "codex": "/followers/reaper/",
+    "title": "Reaper",
+    "tier": 0,
+    "intro": "A stray Reaper of Ankou. It will not attack often, but will wreak havoc when it does.",
+    "price": 500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 161,
+            "cate": "skills",
+            "name": "Horizontal Slash"
+          },
+          {
+            "id": 736,
+            "cate": "skills",
+            "name": "Scythestrike"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "cate": "pets",
+    "codex": "/followers/scarecrow/",
+    "title": "Scarecrow",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Hallowed event, October 2022",
+    "price": 1750000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "2%"
+      },
+      {
+        "spell chance": "22%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 737,
+            "cate": "skills",
+            "name": "Scythestrike II"
+          },
+          {
+            "id": 229,
+            "cate": "skills",
+            "name": "Song of Defense"
+          },
+          {
+            "id": 228,
+            "cate": "skills",
+            "name": "Song of Magic"
+          },
+          {
+            "id": 227,
+            "cate": "skills",
+            "name": "Song of Power"
+          },
+          {
+            "id": 232,
+            "cate": "skills",
+            "name": "Song of Resistance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "cate": "pets",
+    "codex": "/followers/scary-skeleton/",
+    "title": "Scary Skeleton",
+    "tier": 0,
+    "intro": "A scary skeleton. It can act often in battle to assist you. Available for a limited time only.",
+    "event": "LIMITED: BOOOOOOOOOOOOOOOOO, October 2021",
+    "price": 1000000,
+    "props": [
+      {
+        "attack chance": "30%"
+      },
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "30%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 622,
+            "cate": "skills",
+            "name": "Fright"
+          },
+          {
+            "id": 378,
+            "cate": "skills",
+            "name": "Wallop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "cate": "pets",
+    "codex": "/followers/vritra-the-steadfast/",
+    "title": "Vritra the Steadfast",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 1750000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 216,
+            "cate": "skills",
+            "name": "Blightstrike II"
+          },
+          {
+            "id": 703,
+            "cate": "skills",
+            "name": "Darkblight"
+          },
+          {
+            "id": 146,
+            "cate": "skills",
+            "name": "Darkstrike II"
+          },
+          {
+            "id": 706,
+            "cate": "skills",
+            "name": "Drakeblight"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "cate": "pets",
+    "codex": "/followers/wyvern/",
+    "title": "Wyvern",
+    "tier": 0,
+    "intro": "A wild wyvern. It can occasionally breathe fire at your opponent, causing blight.",
+    "price": 750000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "cate": "pets",
+    "codex": "/followers/agathodaemon/",
+    "title": "Agathodaemon",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 4000000,
+    "props": [
+      {
+        "debuff chance": "15%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 706,
+            "cate": "skills",
+            "name": "Drakeblight"
+          },
+          {
+            "id": 712,
+            "cate": "skills",
+            "name": "Fireblight"
+          },
+          {
+            "id": 118,
+            "cate": "skills",
+            "name": "Flame III"
+          },
+          {
+            "id": 243,
+            "cate": "skills",
+            "name": "Meteor II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "cate": "pets",
+    "codex": "/followers/alfar-mage/",
+    "title": "Alfar Mage",
+    "tier": 0,
+    "intro": "A small follower of Scruug. Available for a limited time only.",
+    "event": "LIMITED: A Year's End (December)",
+    "price": 2500000,
+    "props": [
+      {
+        "heal chance": "3%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 239,
+            "cate": "skills",
+            "name": "Drain II"
+          },
+          {
+            "id": 275,
+            "cate": "skills",
+            "name": "Flame IV"
+          },
+          {
+            "id": 628,
+            "cate": "skills",
+            "name": "Winter Wind II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "cate": "pets",
+    "codex": "/followers/arcane-slime/",
+    "title": "Arcane Slime",
+    "tier": 0,
+    "intro": "A tamed slime, capable of arcane magic.",
+    "price": 2500000,
+    "props": [
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 166,
+            "cate": "skills",
+            "name": "Arcana"
+          },
+          {
+            "id": 167,
+            "cate": "skills",
+            "name": "Arcana II"
+          },
+          {
+            "id": 168,
+            "cate": "skills",
+            "name": "Arcanus"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "cate": "pets",
+    "codex": "/followers/camazotz/",
+    "title": "Camazotz",
+    "tier": 0,
+    "intro": "The revered bat of death. It can drain HP from your opponents while improving your stats.",
+    "price": 3000000,
+    "props": [
+      {
+        "heal chance": "12%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "2%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 34,
+            "cate": "skills",
+            "name": "Battle Dance"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 239,
+            "cate": "skills",
+            "name": "Drain II"
+          },
+          {
+            "id": 287,
+            "cate": "skills",
+            "name": "Flurry II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "cate": "pets",
+    "codex": "/followers/carman/",
+    "title": "Carman",
+    "tier": 0,
+    "intro": "The foul witch herself. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 5500000,
+    "props": [
+      {
+        "attack chance": "1%"
+      },
+      {
+        "debuff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 596,
+            "cate": "skills",
+            "name": "Decay"
+          },
+          {
+            "id": 275,
+            "cate": "skills",
+            "name": "Flame IV"
+          },
+          {
+            "id": 53,
+            "cate": "skills",
+            "name": "Freeze"
+          },
+          {
+            "id": 276,
+            "cate": "skills",
+            "name": "Frost IV"
+          },
+          {
+            "id": 61,
+            "cate": "skills",
+            "name": "Poison"
+          },
+          {
+            "id": 64,
+            "cate": "skills",
+            "name": "Shock"
+          },
+          {
+            "id": 272,
+            "cate": "skills",
+            "name": "Spark IV"
+          },
+          {
+            "id": 273,
+            "cate": "skills",
+            "name": "Tremor IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "cate": "pets",
+    "codex": "/followers/cerus/",
+    "title": "Cerus",
+    "tier": 0,
+    "intro": "The untamed beast. Available for a limited time only.",
+    "event": "LIMITED: Cerus the Untamed Event, April 2021",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "7%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 603,
+            "cate": "skills",
+            "name": "Break"
+          },
+          {
+            "id": 122,
+            "cate": "skills",
+            "name": "Shooting Star"
+          },
+          {
+            "id": 131,
+            "cate": "skills",
+            "name": "Supernova"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "cate": "pets",
+    "codex": "/followers/dark-dragon/",
+    "title": "Dark Dragon",
+    "tier": 0,
+    "intro": "An ebony dragon. It can assist one in battle with dark magic.",
+    "price": 3500000,
+    "props": [
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 699,
+            "cate": "skills",
+            "name": "Casted Shadows"
+          },
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "cate": "pets",
+    "codex": "/followers/dire-wolf/",
+    "title": "Dire Wolf",
+    "tier": 0,
+    "intro": "A tamed dire wolf. It can assist you in battle with attack and dexterity boosting skills.",
+    "price": 3000000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "7%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 657,
+            "cate": "skills",
+            "name": "Appease II"
+          },
+          {
+            "id": 182,
+            "cate": "skills",
+            "name": "Bloodlust"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 165,
+            "cate": "skills",
+            "name": "Quick Attack"
+          },
+          {
+            "id": 244,
+            "cate": "skills",
+            "name": "Sidesteps"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "cate": "pets",
+    "codex": "/followers/fey-dragon/",
+    "title": "Fey Dragon",
+    "tier": 0,
+    "intro": "A dragon lost to the curse of Morrigan. Available for a limited time only.",
+    "event": "LIMITED: Sisters of Morrigan Event, November 2020",
+    "price": 3500000,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 630,
+            "cate": "skills",
+            "name": "Chain Lightning II"
+          },
+          {
+            "id": 631,
+            "cate": "skills",
+            "name": "Natura II"
+          },
+          {
+            "id": 629,
+            "cate": "skills",
+            "name": "Wildfire II"
+          },
+          {
+            "id": 628,
+            "cate": "skills",
+            "name": "Winter Wind II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "cate": "pets",
+    "codex": "/followers/finfolk/",
+    "title": "Finfolk",
+    "tier": 0,
+    "intro": "A fabled finfolk of the sea.",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 69,
+            "cate": "skills",
+            "name": "Blizzard"
+          },
+          {
+            "id": 94,
+            "cate": "skills",
+            "name": "Tricut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "cate": "pets",
+    "codex": "/followers/griffin/",
+    "title": "Griffin",
+    "tier": 0,
+    "intro": "A mighty Griffin. It can assist you in battle by improving your dexterity, while casting Dragon magic.",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 216,
+            "cate": "skills",
+            "name": "Blightstrike II"
+          },
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 742,
+            "cate": "skills",
+            "name": "Tempest"
+          },
+          {
+            "id": 105,
+            "cate": "skills",
+            "name": "Wyvern Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "cate": "pets",
+    "codex": "/followers/gullinkambi/",
+    "title": "Gullinkambi",
+    "tier": 0,
+    "intro": "Hel's follower, this hawk will give one great speed. Available for a limited time only.",
+    "event": "LIMITED: Nothren Legends Event, July 2021",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 270,
+            "cate": "skills",
+            "name": "Hack and Slash"
+          },
+          {
+            "id": 43,
+            "cate": "skills",
+            "name": "Poisonstrike"
+          },
+          {
+            "id": 615,
+            "cate": "skills",
+            "name": "Speed III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "cate": "pets",
+    "codex": "/followers/gwyllgi/",
+    "title": "Gwyllgi",
+    "tier": 0,
+    "intro": "A frightful black wolf. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 3500000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "debuff chance": "12%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 657,
+            "cate": "skills",
+            "name": "Appease II"
+          },
+          {
+            "id": 205,
+            "cate": "skills",
+            "name": "Arcane Strikes II"
+          },
+          {
+            "id": 168,
+            "cate": "skills",
+            "name": "Arcanus"
+          },
+          {
+            "id": 567,
+            "cate": "skills",
+            "name": "Flash"
+          },
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 165,
+            "cate": "skills",
+            "name": "Quick Attack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "cate": "pets",
+    "codex": "/followers/gymir/",
+    "title": "Gymir",
+    "tier": 0,
+    "intro": "A great giant.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "18%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 826,
+            "cate": "skills",
+            "name": "Giant's Lesser Wall"
+          },
+          {
+            "id": 161,
+            "cate": "skills",
+            "name": "Horizontal Slash"
+          },
+          {
+            "id": 812,
+            "cate": "skills",
+            "name": "Rock Toss"
+          },
+          {
+            "id": 746,
+            "cate": "skills",
+            "name": "Twofold Strike [zwei]"
+          },
+          {
+            "id": 162,
+            "cate": "skills",
+            "name": "X Slash"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "cate": "pets",
+    "codex": "/followers/orichalcum-golem/",
+    "title": "Orichalcum Golem",
+    "tier": 0,
+    "intro": "A golem forged of Orichalcum. It can assist you in battle with Ward and defensive based skills.",
+    "price": 5000000,
+    "props": [
+      {
+        "buff chance": "9%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 125,
+            "cate": "skills",
+            "name": "Earthen Wall"
+          },
+          {
+            "id": 126,
+            "cate": "skills",
+            "name": "Fire Wall"
+          },
+          {
+            "id": 127,
+            "cate": "skills",
+            "name": "Ice Wall"
+          },
+          {
+            "id": 124,
+            "cate": "skills",
+            "name": "Lightning Wall"
+          },
+          {
+            "id": 311,
+            "cate": "skills",
+            "name": "Mend Wall"
+          },
+          {
+            "id": 300,
+            "cate": "skills",
+            "name": "Ward of Iron"
+          },
+          {
+            "id": 299,
+            "cate": "skills",
+            "name": "Ward of Mythril"
+          },
+          {
+            "id": 308,
+            "cate": "skills",
+            "name": "Ward of Steel"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "cate": "pets",
+    "codex": "/followers/shadow-of-achlys-the-red-dagger/",
+    "title": "Shadow of Achlys, the Red Dagger",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Riftfall event, September 2022",
+    "price": 4000000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 699,
+            "cate": "skills",
+            "name": "Casted Shadows"
+          },
+          {
+            "id": 174,
+            "cate": "skills",
+            "name": "Coup de Grace"
+          },
+          {
+            "id": 702,
+            "cate": "skills",
+            "name": "Dark Sigil"
+          },
+          {
+            "id": 201,
+            "cate": "skills",
+            "name": "Darkstrike III"
+          },
+          {
+            "id": 310,
+            "cate": "skills",
+            "name": "Perfect Shot"
+          },
+          {
+            "id": 81,
+            "cate": "skills",
+            "name": "Sleep Dart"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "cate": "pets",
+    "codex": "/followers/spooky-ghost/",
+    "title": "Spooky Ghost",
+    "tier": 0,
+    "intro": "An extra spooky ghost. It may put your opponent to sleep. Available for a limited time only.",
+    "event": "LIMITED: BOOOOOOOOOOOOOOOOO, October 2021",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "20%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "1%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 622,
+            "cate": "skills",
+            "name": "Fright"
+          },
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 169,
+            "cate": "skills",
+            "name": "Sleep"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "cate": "pets",
+    "codex": "/followers/surtrs-mighty-flame/",
+    "title": "Surtr's Mighty Flame",
+    "tier": 0,
+    "intro": "Available for a limited time only, this massive flame can ensure your opponent is always frozen or lit ablaze.",
+    "event": "LIMITED: Nothren Legends Event, July 2021",
+    "price": 4000000,
+    "props": [
+      {
+        "buff chance": "8%"
+      },
+      {
+        "debuff chance": "50%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 467,
+            "cate": "skills",
+            "name": "Fey Flame"
+          },
+          {
+            "id": 562,
+            "cate": "skills",
+            "name": "Fey Frost"
+          },
+          {
+            "id": 126,
+            "cate": "skills",
+            "name": "Fire Wall"
+          },
+          {
+            "id": 53,
+            "cate": "skills",
+            "name": "Freeze"
+          },
+          {
+            "id": 127,
+            "cate": "skills",
+            "name": "Ice Wall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "cate": "pets",
+    "codex": "/followers/twilight-wisp/",
+    "title": "Twilight Wisp",
+    "tier": 0,
+    "intro": "A wisp of the night, versed in magic of both light and dark.",
+    "price": 3000000,
+    "props": [
+      {
+        "heal chance": "10%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 89,
+            "cate": "skills",
+            "name": "Faith"
+          },
+          {
+            "id": 92,
+            "cate": "skills",
+            "name": "Nightmare"
+          },
+          {
+            "id": 106,
+            "cate": "skills",
+            "name": "Wisp's Heal"
+          },
+          {
+            "id": 193,
+            "cate": "skills",
+            "name": "Wisp's Heal II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "cate": "pets",
+    "codex": "/followers/war-horse/",
+    "title": "War Horse",
+    "tier": 0,
+    "intro": "A mighty steed. It can assist one in battle with offensive skills and boosts to one's dexterity.",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "7%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "cate": "pets",
+    "codex": "/followers/warg/",
+    "title": "Warg",
+    "tier": 0,
+    "intro": "A tamed warg. It will assist in battle with dark strikes.",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 656,
+            "cate": "skills",
+            "name": "Appease"
+          },
+          {
+            "id": 70,
+            "cate": "skills",
+            "name": "Darkstrike"
+          },
+          {
+            "id": 146,
+            "cate": "skills",
+            "name": "Darkstrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "cate": "pets",
+    "codex": "/followers/zaltys-friendly-one/",
+    "title": "Zaltys, Friendly One",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 2500000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 216,
+            "cate": "skills",
+            "name": "Blightstrike II"
+          },
+          {
+            "id": 718,
+            "cate": "skills",
+            "name": "Holy Light II"
+          },
+          {
+            "id": 720,
+            "cate": "skills",
+            "name": "Holyblight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "cate": "pets",
+    "codex": "/followers/amadan/",
+    "title": "Amadan",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Mischievous Clurichauns Event, March 2022",
+    "price": 500000,
+    "props": [
+      {
+        "attack chance": "1%"
+      },
+      {
+        "buff chance": "4%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 636,
+            "cate": "skills",
+            "name": "Haste"
+          },
+          {
+            "id": 643,
+            "cate": "skills",
+            "name": "Lacunus"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "cate": "pets",
+    "codex": "/followers/big-cactus/",
+    "title": "Big Cactus",
+    "tier": 0,
+    "intro": "A giant live cactus. It can assist you in battle with barrages of needles.",
+    "price": 500000,
+    "props": [
+      {
+        "attack chance": "1%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 134,
+            "cate": "skills",
+            "name": "Arrowstorm"
+          },
+          {
+            "id": 445,
+            "cate": "skills",
+            "name": "Arrowstorm II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "cate": "pets",
+    "codex": "/followers/breathing-armor/",
+    "title": "Breathing Armor",
+    "tier": 0,
+    "intro": "An animated piece of armor. It will help in party combat by drawing enemy attention to you while recovering Ward.",
+    "price": 875000,
+    "props": [
+      {
+        "heal chance": "12%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 292,
+            "cate": "skills",
+            "name": "Fortify III"
+          },
+          {
+            "id": 552,
+            "cate": "skills",
+            "name": "Magic Sword III"
+          },
+          {
+            "id": 294,
+            "cate": "skills",
+            "name": "Mend Wall III"
+          },
+          {
+            "id": 655,
+            "cate": "skills",
+            "name": "Provoke II"
+          },
+          {
+            "id": 305,
+            "cate": "skills",
+            "name": "Rampart III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "cate": "pets",
+    "codex": "/followers/breathing-dagger/",
+    "title": "Breathing Dagger",
+    "tier": 0,
+    "intro": "An animated dagger. It will attack frequently with a magical blade.",
+    "price": 375000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 554,
+            "cate": "skills",
+            "name": "Magic Dagger III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "cate": "pets",
+    "codex": "/followers/breathing-hammer/",
+    "title": "Breathing Hammer",
+    "tier": 0,
+    "intro": "An animated hammer. It will attack frequently with a magical hammer face.",
+    "price": 375000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 553,
+            "cate": "skills",
+            "name": "Magic Hammer III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "cate": "pets",
+    "codex": "/followers/breathing-sword/",
+    "title": "Breathing Sword",
+    "tier": 0,
+    "intro": "An animated sword. It will attack frequently with a magical blade.",
+    "price": 375000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 552,
+            "cate": "skills",
+            "name": "Magic Sword III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "cate": "pets",
+    "codex": "/followers/cerberus/",
+    "title": "Cerberus",
+    "tier": 0,
+    "intro": "A tamed Cerberus of Balor. It can assist in battle with spells of fire.",
+    "price": 875000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "25%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 657,
+            "cate": "skills",
+            "name": "Appease II"
+          },
+          {
+            "id": 47,
+            "cate": "skills",
+            "name": "Burn"
+          },
+          {
+            "id": 197,
+            "cate": "skills",
+            "name": "Firestrike III"
+          },
+          {
+            "id": 90,
+            "cate": "skills",
+            "name": "Inferno"
+          },
+          {
+            "id": 94,
+            "cate": "skills",
+            "name": "Tricut"
+          },
+          {
+            "id": 288,
+            "cate": "skills",
+            "name": "Tricut II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "cate": "pets",
+    "codex": "/followers/cockatrice/",
+    "title": "Cockatrice",
+    "tier": 0,
+    "intro": "The mighty cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle.",
+    "price": 750000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "debuff chance": "2%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 170,
+            "cate": "skills",
+            "name": "Petrify"
+          },
+          {
+            "id": 43,
+            "cate": "skills",
+            "name": "Poisonstrike"
+          },
+          {
+            "id": 105,
+            "cate": "skills",
+            "name": "Wyvern Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "cate": "pets",
+    "codex": "/followers/colossus/",
+    "title": "Colossus",
+    "tier": 0,
+    "intro": "The mighty Colossus. It can boost your defenses, while potentially petrifying an opponent.",
+    "price": 625000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 79,
+            "cate": "skills",
+            "name": "Protection II"
+          },
+          {
+            "id": 212,
+            "cate": "skills",
+            "name": "Stone Stare"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "cate": "pets",
+    "codex": "/followers/eistla/",
+    "title": "Eistla",
+    "tier": 0,
+    "intro": "A great giant.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "buff chance": "2%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "protect chance": "6%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 826,
+            "cate": "skills",
+            "name": "Giant's Lesser Wall"
+          },
+          {
+            "id": 827,
+            "cate": "skills",
+            "name": "Giant's Protection"
+          },
+          {
+            "id": 812,
+            "cate": "skills",
+            "name": "Rock Toss"
+          },
+          {
+            "id": 761,
+            "cate": "skills",
+            "name": "Summon Bear"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "cate": "pets",
+    "codex": "/followers/great-gazer/",
+    "title": "Great Gazer",
+    "tier": 0,
+    "intro": "A great gazer. It can lower an opponents stats, while casting offensive magic.",
+    "price": 875000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 69,
+            "cate": "skills",
+            "name": "Blizzard"
+          },
+          {
+            "id": 75,
+            "cate": "skills",
+            "name": "Meteor"
+          },
+          {
+            "id": 171,
+            "cate": "skills",
+            "name": "Mindblast"
+          },
+          {
+            "id": 63,
+            "cate": "skills",
+            "name": "Quake"
+          },
+          {
+            "id": 83,
+            "cate": "skills",
+            "name": "Storm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "cate": "pets",
+    "codex": "/followers/great-yeti/",
+    "title": "Great Yeti",
+    "tier": 0,
+    "intro": "The greatest of the Yeti. It is a true master of defense.",
+    "price": 1375000,
+    "props": [
+      {
+        "buff chance": "30%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 135,
+            "cate": "skills",
+            "name": "Dark Wall"
+          },
+          {
+            "id": 125,
+            "cate": "skills",
+            "name": "Earthen Wall"
+          },
+          {
+            "id": 126,
+            "cate": "skills",
+            "name": "Fire Wall"
+          },
+          {
+            "id": 137,
+            "cate": "skills",
+            "name": "Holy Wall"
+          },
+          {
+            "id": 127,
+            "cate": "skills",
+            "name": "Ice Wall"
+          },
+          {
+            "id": 124,
+            "cate": "skills",
+            "name": "Lightning Wall"
+          },
+          {
+            "id": 60,
+            "cate": "skills",
+            "name": "Magic Shield"
+          },
+          {
+            "id": 143,
+            "cate": "skills",
+            "name": "Mighty Charge"
+          },
+          {
+            "id": 62,
+            "cate": "skills",
+            "name": "Protection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "cate": "pets",
+    "codex": "/followers/hengreon/",
+    "title": "Hengreon",
+    "tier": 0,
+    "intro": "The mighty stallion of Arthus. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 750000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "heal chance": "15%"
+      },
+      {
+        "spell chance": "7%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 129,
+            "cate": "skills",
+            "name": "Miracle"
+          },
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "cate": "pets",
+    "codex": "/followers/illuyanka-made-of-stone/",
+    "title": "Illuyanka, Made of Stone",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 875000,
+    "props": [
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 706,
+            "cate": "skills",
+            "name": "Drakeblight"
+          },
+          {
+            "id": 117,
+            "cate": "skills",
+            "name": "Frost III"
+          },
+          {
+            "id": 723,
+            "cate": "skills",
+            "name": "Iceblight"
+          },
+          {
+            "id": 420,
+            "cate": "skills",
+            "name": "Lusus Naturae"
+          },
+          {
+            "id": 212,
+            "cate": "skills",
+            "name": "Stone Stare"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "cate": "pets",
+    "codex": "/followers/kerberos/",
+    "title": "Kerberos",
+    "tier": 0,
+    "intro": "Arisen from the deep depths of the underworld. Available for a limited time only.",
+    "event": "LIMITED: Rise of Kerberos Event, February 2021",
+    "price": 875000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "15%"
+      },
+      {
+        "spell chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 419,
+            "cate": "skills",
+            "name": "Beaststrike"
+          },
+          {
+            "id": 591,
+            "cate": "skills",
+            "name": "Earth Alignment"
+          },
+          {
+            "id": 593,
+            "cate": "skills",
+            "name": "Fire Alignment"
+          },
+          {
+            "id": 594,
+            "cate": "skills",
+            "name": "Ice Alignment"
+          },
+          {
+            "id": 592,
+            "cate": "skills",
+            "name": "Lightning Alignment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "cate": "pets",
+    "codex": "/followers/pale-dragon/",
+    "title": "Pale Dragon",
+    "tier": 0,
+    "intro": "An ivory dragon of the light skies. It is extremely versed in holy magic.",
+    "price": 1125000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "heal chance": "25%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 89,
+            "cate": "skills",
+            "name": "Faith"
+          },
+          {
+            "id": 123,
+            "cate": "skills",
+            "name": "Faith II"
+          },
+          {
+            "id": 128,
+            "cate": "skills",
+            "name": "Holy Light"
+          },
+          {
+            "id": 74,
+            "cate": "skills",
+            "name": "Holystrike"
+          },
+          {
+            "id": 149,
+            "cate": "skills",
+            "name": "Holystrike II"
+          },
+          {
+            "id": 129,
+            "cate": "skills",
+            "name": "Miracle"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "cate": "pets",
+    "codex": "/followers/phoenix/",
+    "title": "Phoenix",
+    "tier": 0,
+    "intro": "The mighty Phoenix, arisen once again. Available for a limited time only.",
+    "event": "LIMITED: Rise of the Phoenix Event, January 2021",
+    "price": 875000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 419,
+            "cate": "skills",
+            "name": "Beaststrike"
+          },
+          {
+            "id": 430,
+            "cate": "skills",
+            "name": "Deific Channel"
+          },
+          {
+            "id": 197,
+            "cate": "skills",
+            "name": "Firestrike III"
+          },
+          {
+            "id": 420,
+            "cate": "skills",
+            "name": "Lusus Naturae"
+          },
+          {
+            "id": 288,
+            "cate": "skills",
+            "name": "Tricut II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "cate": "pets",
+    "codex": "/followers/pumpkinhead/",
+    "title": "Pumpkinhead",
+    "tier": 0,
+    "intro": "A true brute of stories of old. Available for a limited time only.",
+    "event": "LIMITED: The Hallowed Event, October 2020",
+    "price": 750000,
+    "props": [
+      {
+        "spell chance": "4%"
+      },
+      {
+        "protect chance": "10%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 191,
+            "cate": "skills",
+            "name": "Blast III"
+          },
+          {
+            "id": 201,
+            "cate": "skills",
+            "name": "Darkstrike III"
+          },
+          {
+            "id": 202,
+            "cate": "skills",
+            "name": "Holystrike III"
+          },
+          {
+            "id": 378,
+            "cate": "skills",
+            "name": "Wallop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "cate": "pets",
+    "codex": "/followers/shadow-of-rhada-the-great-shield/",
+    "title": "Shadow of Rhada, the Great Shield",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Riftfall event, September 2022",
+    "price": 875000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "8%"
+      },
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 719,
+            "cate": "skills",
+            "name": "Holy Sigil"
+          },
+          {
+            "id": 338,
+            "cate": "skills",
+            "name": "Purifying Strikes"
+          },
+          {
+            "id": 757,
+            "cate": "skills",
+            "name": "Rhada Stomp"
+          },
+          {
+            "id": 336,
+            "cate": "skills",
+            "name": "Ward of Light"
+          },
+          {
+            "id": 299,
+            "cate": "skills",
+            "name": "Ward of Mythril"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "cate": "pets",
+    "codex": "/followers/steward-cactus/",
+    "title": "Steward Cactus",
+    "tier": 0,
+    "intro": "A Steward in the form of a Cactus.",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "8%"
+      },
+      {
+        "spell chance": "16%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 134,
+            "cate": "skills",
+            "name": "Arrowstorm"
+          },
+          {
+            "id": 445,
+            "cate": "skills",
+            "name": "Arrowstorm II"
+          },
+          {
+            "id": 635,
+            "cate": "skills",
+            "name": "Natura"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "cate": "pets",
+    "codex": "/followers/steward-dragon/",
+    "title": "Steward Dragon",
+    "tier": 0,
+    "intro": "A Steward in the form of a dragon.",
+    "price": 0,
+    "props": [
+      {
+        "heal chance": "30%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 342,
+            "cate": "skills",
+            "name": "Blightstrike III"
+          },
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 128,
+            "cate": "skills",
+            "name": "Holy Light"
+          },
+          {
+            "id": 129,
+            "cate": "skills",
+            "name": "Miracle"
+          },
+          {
+            "id": 632,
+            "cate": "skills",
+            "name": "Wildfire"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "cate": "pets",
+    "codex": "/followers/steward-gazer/",
+    "title": "Steward Gazer",
+    "tier": 0,
+    "intro": "A Steward in the form of a Gazer.",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "9%"
+      },
+      {
+        "debuff chance": "7%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 630,
+            "cate": "skills",
+            "name": "Chain Lightning II"
+          },
+          {
+            "id": 470,
+            "cate": "skills",
+            "name": "Fey Spark III"
+          },
+          {
+            "id": 340,
+            "cate": "skills",
+            "name": "Jump II"
+          },
+          {
+            "id": 171,
+            "cate": "skills",
+            "name": "Mindblast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "cate": "pets",
+    "codex": "/followers/steward-golem/",
+    "title": "Steward Golem",
+    "tier": 0,
+    "intro": "A Steward in the form of a golem.",
+    "price": 0,
+    "props": [
+      {
+        "buff chance": "20%"
+      },
+      {
+        "protect chance": "7%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 614,
+            "cate": "skills",
+            "name": "Bastion III (Off-hand)"
+          },
+          {
+            "id": 294,
+            "cate": "skills",
+            "name": "Mend Wall III"
+          },
+          {
+            "id": 136,
+            "cate": "skills",
+            "name": "Prism Wall"
+          },
+          {
+            "id": 299,
+            "cate": "skills",
+            "name": "Ward of Mythril"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "cate": "pets",
+    "codex": "/followers/steward-wolf/",
+    "title": "Steward Wolf",
+    "tier": 0,
+    "intro": "A Steward in the form of a wolf.",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "4%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "2%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 657,
+            "cate": "skills",
+            "name": "Appease II"
+          },
+          {
+            "id": 182,
+            "cate": "skills",
+            "name": "Bloodlust"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 55,
+            "cate": "skills",
+            "name": "Great Heal"
+          },
+          {
+            "id": 165,
+            "cate": "skills",
+            "name": "Quick Attack"
+          },
+          {
+            "id": 244,
+            "cate": "skills",
+            "name": "Sidesteps"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "cate": "pets",
+    "codex": "/followers/succubus/",
+    "title": "Succubus",
+    "tier": 0,
+    "intro": "A grimly singing succubus. It can assist you in battle by improving your dexterity or attack power.",
+    "price": 625000,
+    "props": [
+      {
+        "buff chance": "5%"
+      },
+      {
+        "debuff chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 182,
+            "cate": "skills",
+            "name": "Bloodlust"
+          },
+          {
+            "id": 640,
+            "cate": "skills",
+            "name": "Haste+"
+          },
+          {
+            "id": 244,
+            "cate": "skills",
+            "name": "Sidesteps"
+          },
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "cate": "pets",
+    "codex": "/followers/triton/",
+    "title": "Triton",
+    "tier": 0,
+    "intro": "A brown crustacean. It can cause your opponents to bleed while slightly healing you.",
+    "price": 750000,
+    "props": [
+      {
+        "heal chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 35,
+            "cate": "skills",
+            "name": "Bleed"
+          },
+          {
+            "id": 285,
+            "cate": "skills",
+            "name": "Doublecut II"
+          },
+          {
+            "id": 327,
+            "cate": "skills",
+            "name": "Drain III"
+          },
+          {
+            "id": 459,
+            "cate": "skills",
+            "name": "Guts"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "cate": "pets",
+    "codex": "/followers/turul/",
+    "title": "Turul",
+    "tier": 0,
+    "intro": "A wild Turul. It can assist one in battle by diminishing an opponent's stats.",
+    "price": 625000,
+    "props": [
+      {
+        "debuff chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 697,
+            "cate": "skills",
+            "name": "Aerial Barrage"
+          },
+          {
+            "id": 328,
+            "cate": "skills",
+            "name": "Forbid"
+          },
+          {
+            "id": 731,
+            "cate": "skills",
+            "name": "Peck"
+          },
+          {
+            "id": 234,
+            "cate": "skills",
+            "name": "Rebuke"
+          },
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "cate": "pets",
+    "codex": "/followers/ancient-jinn/",
+    "title": "Ancient Jinn",
+    "tier": 0,
+    "intro": "A magical Jinn. It can cast fey magic while granting its talents to its master.",
+    "price": 1750000,
+    "props": [
+      {
+        "buff chance": "4%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 472,
+            "cate": "skills",
+            "name": "Fey Flame IV"
+          },
+          {
+            "id": 473,
+            "cate": "skills",
+            "name": "Fey Frost IV"
+          },
+          {
+            "id": 474,
+            "cate": "skills",
+            "name": "Fey Spark IV"
+          },
+          {
+            "id": 475,
+            "cate": "skills",
+            "name": "Fey Tremor IV"
+          },
+          {
+            "id": 102,
+            "cate": "skills",
+            "name": "Jinn's Talent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "cate": "pets",
+    "codex": "/followers/arisen-naggeneen/",
+    "title": "Arisen Naggeneen",
+    "tier": 0,
+    "intro": "Oh, the foul fairy Naggeneen. Available for a limited time.",
+    "event": "LIMITED: Mischievous Naggeneen Event, March 2021",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "20%"
+      },
+      {
+        "protect chance": "1%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 396,
+            "cate": "skills",
+            "name": "Frostfire"
+          },
+          {
+            "id": 397,
+            "cate": "skills",
+            "name": "Heat Lightning"
+          },
+          {
+            "id": 400,
+            "cate": "skills",
+            "name": "Ice Storm"
+          },
+          {
+            "id": 398,
+            "cate": "skills",
+            "name": "Iced Earth"
+          },
+          {
+            "id": 366,
+            "cate": "skills",
+            "name": "Miasma"
+          },
+          {
+            "id": 399,
+            "cate": "skills",
+            "name": "Quakestorm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "cate": "pets",
+    "codex": "/followers/bashe-hungry-one/",
+    "title": "Bashe, Hungry One",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 1500000,
+    "props": [
+      {
+        "debuff chance": "15%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 423,
+            "cate": "skills",
+            "name": "Beaststrike III"
+          },
+          {
+            "id": 327,
+            "cate": "skills",
+            "name": "Drain III"
+          },
+          {
+            "id": 706,
+            "cate": "skills",
+            "name": "Drakeblight"
+          },
+          {
+            "id": 422,
+            "cate": "skills",
+            "name": "Lusus Naturae II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "cate": "pets",
+    "codex": "/followers/crimson-gazer/",
+    "title": "Crimson Gazer",
+    "tier": 0,
+    "intro": "A reckless Gazer. Be careful bringing this one with you.",
+    "price": 1500000,
+    "props": [
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 224,
+            "cate": "skills",
+            "name": "Cataclysm II"
+          },
+          {
+            "id": 221,
+            "cate": "skills",
+            "name": "Fulmination II"
+          },
+          {
+            "id": 223,
+            "cate": "skills",
+            "name": "Glacier II"
+          },
+          {
+            "id": 222,
+            "cate": "skills",
+            "name": "Inferno II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "cate": "pets",
+    "codex": "/followers/ebon-scruug/",
+    "title": "Ebon Scruug",
+    "tier": 0,
+    "intro": "An apparition of greed and envy. Available for a limited time only.",
+    "event": "LIMITED: A Year's End Event, December 2020",
+    "price": 2000000,
+    "props": [
+      {
+        "buff chance": "1%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 256,
+            "cate": "skills",
+            "name": "Despair"
+          },
+          {
+            "id": 252,
+            "cate": "skills",
+            "name": "Hubris"
+          },
+          {
+            "id": 369,
+            "cate": "skills",
+            "name": "Miasma II"
+          },
+          {
+            "id": 180,
+            "cate": "skills",
+            "name": "Wail"
+          },
+          {
+            "id": 624,
+            "cate": "skills",
+            "name": "Winter Wind III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "cate": "pets",
+    "codex": "/followers/fey-yeti/",
+    "title": "Fey Yeti",
+    "tier": 0,
+    "intro": "A great yeti lost to the curse of Morrigan. Available for a limited time only.",
+    "event": "LIMITED: Sisters of Morrigan Event, November 2020",
+    "price": 1750000,
+    "props": [
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "6%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 388,
+            "cate": "skills",
+            "name": "Inferno Facade"
+          },
+          {
+            "id": 143,
+            "cate": "skills",
+            "name": "Mighty Charge"
+          },
+          {
+            "id": 136,
+            "cate": "skills",
+            "name": "Prism Wall"
+          },
+          {
+            "id": 391,
+            "cate": "skills",
+            "name": "Storm Facade"
+          },
+          {
+            "id": 299,
+            "cate": "skills",
+            "name": "Ward of Mythril"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "cate": "pets",
+    "codex": "/followers/giant-basilisk/",
+    "title": "Giant Basilisk",
+    "tier": 0,
+    "intro": "A giant red basilisk. It will assist in battle by attacking often.",
+    "price": 1000000,
+    "props": [
+      {
+        "attack chance": "25%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 316,
+            "cate": "skills",
+            "name": "Quadcut"
+          },
+          {
+            "id": 94,
+            "cate": "skills",
+            "name": "Tricut"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "cate": "pets",
+    "codex": "/followers/glatisant/",
+    "title": "Glatisant",
+    "tier": 0,
+    "intro": "The Questing Beast. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "50%"
+      },
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 214,
+            "cate": "skills",
+            "name": "Jump"
+          },
+          {
+            "id": 316,
+            "cate": "skills",
+            "name": "Quadcut"
+          },
+          {
+            "id": 244,
+            "cate": "skills",
+            "name": "Sidesteps"
+          },
+          {
+            "id": 581,
+            "cate": "skills",
+            "name": "Wyvern Speed III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "cate": "pets",
+    "codex": "/followers/great-cockatrice/",
+    "title": "Great Cockatrice",
+    "tier": 0,
+    "intro": "The mighty cockatrice. It can poison or petrify an opponent, while occasionally boosting your speed in battle.",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "7%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 195,
+            "cate": "skills",
+            "name": "Cockatrice Breath"
+          },
+          {
+            "id": 366,
+            "cate": "skills",
+            "name": "Miasma"
+          },
+          {
+            "id": 170,
+            "cate": "skills",
+            "name": "Petrify"
+          },
+          {
+            "id": 105,
+            "cate": "skills",
+            "name": "Wyvern Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "cate": "pets",
+    "codex": "/followers/great-reaper/",
+    "title": "Great Reaper",
+    "tier": 0,
+    "intro": "A stray Reaper of Ankou. It will not attack often, but will wreak havoc when it does.",
+    "price": 1000000,
+    "props": [
+      {
+        "attack chance": "40%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 161,
+            "cate": "skills",
+            "name": "Horizontal Slash"
+          },
+          {
+            "id": 737,
+            "cate": "skills",
+            "name": "Scythestrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "cate": "pets",
+    "codex": "/followers/guivre/",
+    "title": "Guivre",
+    "tier": 0,
+    "intro": "An elusive Great Dragon. It can assist in battle with powerful dragon spells.",
+    "price": 1750000,
+    "props": [
+      {
+        "attack chance": "7%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 206,
+            "cate": "skills",
+            "name": "Fireball"
+          },
+          {
+            "id": 98,
+            "cate": "skills",
+            "name": "Flare"
+          },
+          {
+            "id": 243,
+            "cate": "skills",
+            "name": "Meteor II"
+          },
+          {
+            "id": 215,
+            "cate": "skills",
+            "name": "Multi-flare"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "cate": "pets",
+    "codex": "/followers/mighty-griffin/",
+    "title": "Mighty Griffin",
+    "tier": 0,
+    "intro": "A mighty Griffin. It can assist you in battle by improving your critical hit rate, while casting Dragon magic.",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "12%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 342,
+            "cate": "skills",
+            "name": "Blightstrike III"
+          },
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 743,
+            "cate": "skills",
+            "name": "Tempest II"
+          },
+          {
+            "id": 341,
+            "cate": "skills",
+            "name": "Wyrm's Song"
+          },
+          {
+            "id": 217,
+            "cate": "skills",
+            "name": "Wyvern Speed II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "cate": "pets",
+    "codex": "/followers/nidhogg/",
+    "title": "Nidhogg",
+    "tier": 0,
+    "intro": "A horrific serpentine dragon capable of beastly attacks.",
+    "price": 1750000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "spell chance": "9%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 419,
+            "cate": "skills",
+            "name": "Beaststrike"
+          },
+          {
+            "id": 421,
+            "cate": "skills",
+            "name": "Beaststrike II"
+          },
+          {
+            "id": 423,
+            "cate": "skills",
+            "name": "Beaststrike III"
+          },
+          {
+            "id": 420,
+            "cate": "skills",
+            "name": "Lusus Naturae"
+          },
+          {
+            "id": 422,
+            "cate": "skills",
+            "name": "Lusus Naturae II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "cate": "pets",
+    "codex": "/followers/onryo/",
+    "title": "Onryo",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Hallowed event, October 2022",
+    "price": 1500000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 184,
+            "cate": "skills",
+            "name": "Nightmare II"
+          },
+          {
+            "id": 795,
+            "cate": "skills",
+            "name": "Summon Dead"
+          },
+          {
+            "id": 743,
+            "cate": "skills",
+            "name": "Tempest II"
+          },
+          {
+            "id": 803,
+            "cate": "skills",
+            "name": "Wail II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "cate": "pets",
+    "codex": "/followers/pollux/",
+    "title": "Pollux",
+    "tier": 0,
+    "intro": "Available for a limited time: the terrible twin Pollux can assist you in battle with a variety of skills.",
+    "event": "LIMITED: The Discuri Event, May 2020",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "heal chance": "6%"
+      },
+      {
+        "buff chance": "4%"
+      },
+      {
+        "debuff chance": "4%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 445,
+            "cate": "skills",
+            "name": "Arrowstorm II"
+          },
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 53,
+            "cate": "skills",
+            "name": "Freeze"
+          },
+          {
+            "id": 133,
+            "cate": "skills",
+            "name": "Full Bend"
+          },
+          {
+            "id": 251,
+            "cate": "skills",
+            "name": "Scout Weakness"
+          },
+          {
+            "id": 244,
+            "cate": "skills",
+            "name": "Sidesteps"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "cate": "pets",
+    "codex": "/followers/quetzalcoatl-feathered-one/",
+    "title": "Quetzalcoatl, Feathered One",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 2500000,
+    "props": [
+      {
+        "debuff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 709,
+            "cate": "skills",
+            "name": "Earthblight"
+          },
+          {
+            "id": 712,
+            "cate": "skills",
+            "name": "Fireblight"
+          },
+          {
+            "id": 397,
+            "cate": "skills",
+            "name": "Heat Lightning"
+          },
+          {
+            "id": 400,
+            "cate": "skills",
+            "name": "Ice Storm"
+          },
+          {
+            "id": 723,
+            "cate": "skills",
+            "name": "Iceblight"
+          },
+          {
+            "id": 398,
+            "cate": "skills",
+            "name": "Iced Earth"
+          },
+          {
+            "id": 727,
+            "cate": "skills",
+            "name": "Lightningblight"
+          },
+          {
+            "id": 401,
+            "cate": "skills",
+            "name": "Scorched Earth"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "cate": "pets",
+    "codex": "/followers/raging-cerus/",
+    "title": "Raging Cerus",
+    "tier": 0,
+    "intro": "The untamed beast. Available for a limited time only.",
+    "event": "LIMITED: Cerus the Untamed Event, April 2021",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "6%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 423,
+            "cate": "skills",
+            "name": "Beaststrike III"
+          },
+          {
+            "id": 603,
+            "cate": "skills",
+            "name": "Break"
+          },
+          {
+            "id": 429,
+            "cate": "skills",
+            "name": "Emberstrike II"
+          },
+          {
+            "id": 435,
+            "cate": "skills",
+            "name": "Terrastrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "cate": "pets",
+    "codex": "/followers/undead-golem/",
+    "title": "Undead Golem",
+    "tier": 0,
+    "intro": "A great undead golem. It will assist you in battle by granting and restoring ward.",
+    "price": 1500000,
+    "props": [
+      {
+        "heal chance": "3%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 101,
+            "cate": "skills",
+            "name": "Golem's Fortitude"
+          },
+          {
+            "id": 335,
+            "cate": "skills",
+            "name": "Guarding Strike"
+          },
+          {
+            "id": 655,
+            "cate": "skills",
+            "name": "Provoke II"
+          },
+          {
+            "id": 747,
+            "cate": "skills",
+            "name": "Ward of Bone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "cate": "pets",
+    "codex": "/followers/untamed-cerus/",
+    "title": "Untamed Cerus",
+    "tier": 0,
+    "intro": "The untamed beast. Available for a limited time only.",
+    "event": "LIMITED: Cerus the Untamed Event, April 2021",
+    "price": 1500000,
+    "props": [
+      {
+        "attack chance": "7%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 603,
+            "cate": "skills",
+            "name": "Break"
+          },
+          {
+            "id": 428,
+            "cate": "skills",
+            "name": "Emberseal II"
+          },
+          {
+            "id": 409,
+            "cate": "skills",
+            "name": "Scorched Earth II"
+          },
+          {
+            "id": 434,
+            "cate": "skills",
+            "name": "Terraseal II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "cate": "pets",
+    "codex": "/followers/very-scary-skeleton/",
+    "title": "Very Scary Skeleton",
+    "tier": 0,
+    "intro": "A scary skeleton. It can act often in battle to assist you. Available for a limited time only.",
+    "event": "LIMITED: BOOOOOOOOOOOOOOOOO, October 2021",
+    "price": 1000000,
+    "props": [
+      {
+        "attack chance": "30%"
+      },
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "30%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 622,
+            "cate": "skills",
+            "name": "Fright"
+          },
+          {
+            "id": 378,
+            "cate": "skills",
+            "name": "Wallop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "cate": "pets",
+    "codex": "/followers/anubis/",
+    "title": "Anubis",
+    "tier": 0,
+    "intro": "The magical might of the Jackal god knows no bounds.",
+    "price": 4000000,
+    "props": [
+      {
+        "debuff chance": "12%"
+      },
+      {
+        "spell chance": "7%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 708,
+            "cate": "skills",
+            "name": "Earth Sigil"
+          },
+          {
+            "id": 711,
+            "cate": "skills",
+            "name": "Fire Sigil"
+          },
+          {
+            "id": 372,
+            "cate": "skills",
+            "name": "Flame VI"
+          },
+          {
+            "id": 374,
+            "cate": "skills",
+            "name": "Frost VI"
+          },
+          {
+            "id": 722,
+            "cate": "skills",
+            "name": "Ice Sigil"
+          },
+          {
+            "id": 726,
+            "cate": "skills",
+            "name": "Lightning Sigil"
+          },
+          {
+            "id": 376,
+            "cate": "skills",
+            "name": "Spark VI"
+          },
+          {
+            "id": 377,
+            "cate": "skills",
+            "name": "Tremor VI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "cate": "pets",
+    "codex": "/followers/apollyons-apprentice-e9f91df6/",
+    "title": "Apollyon's Apprentice",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 591,
+            "cate": "skills",
+            "name": "Earth Alignment"
+          },
+          {
+            "id": 434,
+            "cate": "skills",
+            "name": "Terraseal II"
+          },
+          {
+            "id": 435,
+            "cate": "skills",
+            "name": "Terrastrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "cate": "pets",
+    "codex": "/followers/apollyons-apprentice-91d096c2/",
+    "title": "Apollyon's Apprentice",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 441,
+            "cate": "skills",
+            "name": "Galeseal II"
+          },
+          {
+            "id": 442,
+            "cate": "skills",
+            "name": "Galestrike II"
+          },
+          {
+            "id": 592,
+            "cate": "skills",
+            "name": "Lightning Alignment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "cate": "pets",
+    "codex": "/followers/apollyons-apprentice-d370c676/",
+    "title": "Apollyon's Apprentice",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 594,
+            "cate": "skills",
+            "name": "Ice Alignment"
+          },
+          {
+            "id": 451,
+            "cate": "skills",
+            "name": "Tidalseal II"
+          },
+          {
+            "id": 449,
+            "cate": "skills",
+            "name": "Tidalstrike II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "cate": "pets",
+    "codex": "/followers/apollyons-apprentice/",
+    "title": "Apollyon's Apprentice",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: The Plight of Apollyon event, May 2022",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "15%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 428,
+            "cate": "skills",
+            "name": "Emberseal II"
+          },
+          {
+            "id": 429,
+            "cate": "skills",
+            "name": "Emberstrike II"
+          },
+          {
+            "id": 593,
+            "cate": "skills",
+            "name": "Fire Alignment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "cate": "pets",
+    "codex": "/followers/ashen-phoenix/",
+    "title": "Ashen Phoenix",
+    "tier": 0,
+    "intro": "The mighty Phoenix, fallen once again. Available for a limited time only.",
+    "event": "LIMITED: Rise of the Phoenix Event, January 2021",
+    "price": 3000000,
+    "props": [
+      {
+        "buff chance": "3%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 430,
+            "cate": "skills",
+            "name": "Deific Channel"
+          },
+          {
+            "id": 428,
+            "cate": "skills",
+            "name": "Emberseal II"
+          },
+          {
+            "id": 429,
+            "cate": "skills",
+            "name": "Emberstrike II"
+          },
+          {
+            "id": 590,
+            "cate": "skills",
+            "name": "Lusus Naturae III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "cate": "pets",
+    "codex": "/followers/asteria-of-olympia/",
+    "title": "Asteria of Olympia",
+    "tier": 0,
+    "intro": "A great Titan.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "12%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 494,
+            "cate": "skills",
+            "name": "Magic Sword IV"
+          },
+          {
+            "id": 376,
+            "cate": "skills",
+            "name": "Spark VI"
+          },
+          {
+            "id": 821,
+            "cate": "skills",
+            "name": "Titan's Lesser Wall"
+          },
+          {
+            "id": 823,
+            "cate": "skills",
+            "name": "Titan's Protection"
+          },
+          {
+            "id": 819,
+            "cate": "skills",
+            "name": "Towerfall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "cate": "pets",
+    "codex": "/followers/atlas-of-olympia/",
+    "title": "Atlas of Olympia",
+    "tier": 0,
+    "intro": "A great Titan.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "6%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 140,
+            "cate": "skills",
+            "name": "Berserk"
+          },
+          {
+            "id": 821,
+            "cate": "skills",
+            "name": "Titan's Lesser Wall"
+          },
+          {
+            "id": 823,
+            "cate": "skills",
+            "name": "Titan's Protection"
+          },
+          {
+            "id": 819,
+            "cate": "skills",
+            "name": "Towerfall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "cate": "pets",
+    "codex": "/followers/chimera/",
+    "title": "Chimera",
+    "tier": 0,
+    "intro": "A fierce Chimera. This follower can cause one to go berserk, while assisting in battle with beastly spells.",
+    "price": 3000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "20%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 140,
+            "cate": "skills",
+            "name": "Berserk"
+          },
+          {
+            "id": 342,
+            "cate": "skills",
+            "name": "Blightstrike III"
+          },
+          {
+            "id": 204,
+            "cate": "skills",
+            "name": "Omnistrike III"
+          },
+          {
+            "id": 343,
+            "cate": "skills",
+            "name": "Wyvern Strikes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "cate": "pets",
+    "codex": "/followers/cthulhu/",
+    "title": "Cthulhu",
+    "tier": 0,
+    "intro": "This dreaded beast of the seas can assist you in battle with an array of elemental abilities.",
+    "price": 3500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "9%"
+      },
+      {
+        "debuff chance": "9%"
+      },
+      {
+        "spell chance": "9%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 476,
+            "cate": "skills",
+            "name": "Fey Flame V"
+          },
+          {
+            "id": 477,
+            "cate": "skills",
+            "name": "Fey Frost V"
+          },
+          {
+            "id": 478,
+            "cate": "skills",
+            "name": "Fey Spark V"
+          },
+          {
+            "id": 479,
+            "cate": "skills",
+            "name": "Fey Tremor V"
+          },
+          {
+            "id": 730,
+            "cate": "skills",
+            "name": "Octoblast"
+          },
+          {
+            "id": 136,
+            "cate": "skills",
+            "name": "Prism Wall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "cate": "pets",
+    "codex": "/followers/dark-pegasus/",
+    "title": "Dark Pegasus",
+    "tier": 0,
+    "intro": "A beast of great myth. It can assist you in battle with powerful dark strikes and debuffs.",
+    "price": 3500000,
+    "props": [
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 700,
+            "cate": "skills",
+            "name": "Casted Shadows II"
+          },
+          {
+            "id": 328,
+            "cate": "skills",
+            "name": "Forbid"
+          },
+          {
+            "id": 326,
+            "cate": "skills",
+            "name": "Forbidden Art"
+          },
+          {
+            "id": 525,
+            "cate": "skills",
+            "name": "Gloomseal II"
+          },
+          {
+            "id": 526,
+            "cate": "skills",
+            "name": "Gloomstrike II"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "cate": "pets",
+    "codex": "/followers/fafnir/",
+    "title": "Fafnir",
+    "tier": 0,
+    "intro": "The great cursed Fafnir. While curing one of status ailments, it will assist you in battle with dark and dragon magic.",
+    "price": 4500000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "heal chance": "25%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 146,
+            "cate": "skills",
+            "name": "Darkstrike II"
+          },
+          {
+            "id": 201,
+            "cate": "skills",
+            "name": "Darkstrike III"
+          },
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 97,
+            "cate": "skills",
+            "name": "Dragon Breath"
+          },
+          {
+            "id": 128,
+            "cate": "skills",
+            "name": "Holy Light"
+          },
+          {
+            "id": 690,
+            "cate": "skills",
+            "name": "Pray II"
+          },
+          {
+            "id": 694,
+            "cate": "skills",
+            "name": "Revive III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "cate": "pets",
+    "codex": "/followers/fenrir/",
+    "title": "Fenrir",
+    "tier": 0,
+    "intro": "The unrelenting Fenrir. It can assist you in battle with strong physical attacks and status effects.",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 182,
+            "cate": "skills",
+            "name": "Bloodlust"
+          },
+          {
+            "id": 498,
+            "cate": "skills",
+            "name": "Omnistrikes II"
+          },
+          {
+            "id": 496,
+            "cate": "skills",
+            "name": "Osmostrikes II"
+          },
+          {
+            "id": 414,
+            "cate": "skills",
+            "name": "Quadcut II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "cate": "pets",
+    "codex": "/followers/fey-cactus/",
+    "title": "Fey Cactus",
+    "tier": 0,
+    "intro": "A most plagued cactus. It can assist you in battle with barrages of needles.",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "spell chance": "9%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 134,
+            "cate": "skills",
+            "name": "Arrowstorm"
+          },
+          {
+            "id": 445,
+            "cate": "skills",
+            "name": "Arrowstorm II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "cate": "pets",
+    "codex": "/followers/fey-chimera/",
+    "title": "Fey Chimera",
+    "tier": 0,
+    "intro": "A beastly chimera lost to the curse of Morrigan. Available for a limited time only.",
+    "event": "LIMITED: Sisters of Morrigan Event, November 2020",
+    "price": 3000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "22%"
+      },
+      {
+        "spell chance": "6%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 538,
+            "cate": "skills",
+            "name": "Beaststrikes"
+          },
+          {
+            "id": 140,
+            "cate": "skills",
+            "name": "Berserk"
+          },
+          {
+            "id": 498,
+            "cate": "skills",
+            "name": "Omnistrikes II"
+          },
+          {
+            "id": 343,
+            "cate": "skills",
+            "name": "Wyvern Strikes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "cate": "pets",
+    "codex": "/followers/fjalar/",
+    "title": "Fjalar",
+    "tier": 0,
+    "intro": "A rare Fjalar. It can assist one in battle by increasing dexterity and critical hit rate.",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "buff chance": "25%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 697,
+            "cate": "skills",
+            "name": "Aerial Barrage"
+          },
+          {
+            "id": 499,
+            "cate": "skills",
+            "name": "Evasive Strikes"
+          },
+          {
+            "id": 414,
+            "cate": "skills",
+            "name": "Quadcut II"
+          },
+          {
+            "id": 82,
+            "cate": "skills",
+            "name": "Speed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "cate": "pets",
+    "codex": "/followers/gorynych-son-of-mountains/",
+    "title": "Gorynych, Son of Mountains",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 4000000,
+    "props": [
+      {
+        "attack chance": "8%"
+      },
+      {
+        "buff chance": "3%"
+      },
+      {
+        "debuff chance": "6%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 703,
+            "cate": "skills",
+            "name": "Darkblight"
+          },
+          {
+            "id": 339,
+            "cate": "skills",
+            "name": "Divine Bastion"
+          },
+          {
+            "id": 720,
+            "cate": "skills",
+            "name": "Holyblight"
+          },
+          {
+            "id": 519,
+            "cate": "skills",
+            "name": "Loststrike"
+          },
+          {
+            "id": 514,
+            "cate": "skills",
+            "name": "Sacrestrike"
+          },
+          {
+            "id": 558,
+            "cate": "skills",
+            "name": "Transference III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "cate": "pets",
+    "codex": "/followers/great-pegasus/",
+    "title": "Great Pegasus",
+    "tier": 0,
+    "intro": "A beast of Avalonian pride. Available for a limited time only.",
+    "event": "LIMITED: Beasts of Avalon Event, June 2021",
+    "price": 3000000,
+    "props": [
+      {
+        "attack chance": "3%"
+      },
+      {
+        "heal chance": "15%"
+      },
+      {
+        "buff chance": "5%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 235,
+            "cate": "skills",
+            "name": "Blessed Shield"
+          },
+          {
+            "id": 236,
+            "cate": "skills",
+            "name": "Cleanse"
+          },
+          {
+            "id": 128,
+            "cate": "skills",
+            "name": "Holy Light"
+          },
+          {
+            "id": 690,
+            "cate": "skills",
+            "name": "Pray II"
+          },
+          {
+            "id": 694,
+            "cate": "skills",
+            "name": "Revive III"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "cate": "pets",
+    "codex": "/followers/living-arch-armor/",
+    "title": "Living Arch-Armor",
+    "tier": 0,
+    "intro": "An animated piece of armor. It will help in party combat by drawing enemy attention to you while recovering Ward.",
+    "price": 2500000,
+    "props": [
+      {
+        "attack chance": "20%"
+      },
+      {
+        "heal chance": "2%"
+      },
+      {
+        "buff chance": "2%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 339,
+            "cate": "skills",
+            "name": "Divine Bastion"
+          },
+          {
+            "id": 494,
+            "cate": "skills",
+            "name": "Magic Sword IV"
+          },
+          {
+            "id": 655,
+            "cate": "skills",
+            "name": "Provoke II"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "cate": "pets",
+    "codex": "/followers/living-arsenal/",
+    "title": "Living Arsenal",
+    "tier": 0,
+    "intro": "An animated bundle of weapons. It will attack frequently.",
+    "price": 3500000,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "spell chance": "60%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 502,
+            "cate": "skills",
+            "name": "Magic Arrow IV"
+          },
+          {
+            "id": 500,
+            "cate": "skills",
+            "name": "Magic Dagger IV"
+          },
+          {
+            "id": 497,
+            "cate": "skills",
+            "name": "Magic Hammer IV"
+          },
+          {
+            "id": 504,
+            "cate": "skills",
+            "name": "Magic Strikes IV"
+          },
+          {
+            "id": 494,
+            "cate": "skills",
+            "name": "Magic Sword IV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "cate": "pets",
+    "codex": "/followers/mammon-acolyte/",
+    "title": "Mammon Acolyte",
+    "tier": 0,
+    "intro": "Follower of Mammon. It will deal damage dependant on the amount of monsters you have recently slain, but may miss its mark.",
+    "price": 2500000,
+    "props": [
+      {
+        "buff chance": "12%"
+      },
+      {
+        "debuff chance": "12%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 256,
+            "cate": "skills",
+            "name": "Despair"
+          },
+          {
+            "id": 255,
+            "cate": "skills",
+            "name": "Envy"
+          },
+          {
+            "id": 740,
+            "cate": "skills",
+            "name": "Nekrosis III"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "cate": "pets",
+    "codex": "/followers/mighty-mimic/",
+    "title": "Mighty Mimic",
+    "tier": 0,
+    "intro": "The mightiest of mimics. It will cause mischief in battle while casting spells.",
+    "price": 3500000,
+    "props": [
+      {
+        "buff chance": "100%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 372,
+            "cate": "skills",
+            "name": "Flame VI"
+          },
+          {
+            "id": 374,
+            "cate": "skills",
+            "name": "Frost VI"
+          },
+          {
+            "id": 103,
+            "cate": "skills",
+            "name": "Mimic's Mischief"
+          },
+          {
+            "id": 376,
+            "cate": "skills",
+            "name": "Spark VI"
+          },
+          {
+            "id": 377,
+            "cate": "skills",
+            "name": "Tremor VI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "cate": "pets",
+    "codex": "/followers/mighty-slime/",
+    "title": "Mighty Slime",
+    "tier": 0,
+    "intro": "A mighty slime warrior. It will attack your foes often.",
+    "price": 1000000,
+    "props": [
+      {
+        "attack chance": "50%"
+      },
+      {
+        "protect chance": "7%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 614,
+            "cate": "skills",
+            "name": "Bastion III (Off-hand)"
+          },
+          {
+            "id": 655,
+            "cate": "skills",
+            "name": "Provoke II"
+          },
+          {
+            "id": 493,
+            "cate": "skills",
+            "name": "Sortie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "cate": "pets",
+    "codex": "/followers/ophion-of-olympia/",
+    "title": "Ophion of Olympia",
+    "tier": 0,
+    "intro": "A great Titan.",
+    "event": "LIMITED: Of Giants and Titans event, November 2022",
+    "price": 0,
+    "props": [
+      {
+        "attack chance": "10%"
+      },
+      {
+        "buff chance": "6%"
+      },
+      {
+        "spell chance": "8%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 825,
+            "cate": "skills",
+            "name": "Summon Fafnir"
+          },
+          {
+            "id": 821,
+            "cate": "skills",
+            "name": "Titan's Lesser Wall"
+          },
+          {
+            "id": 823,
+            "cate": "skills",
+            "name": "Titan's Protection"
+          },
+          {
+            "id": 819,
+            "cate": "skills",
+            "name": "Towerfall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "cate": "pets",
+    "codex": "/followers/ortanite-golem/",
+    "title": "Ortanite Golem",
+    "tier": 0,
+    "intro": "A golem forged of Ortanite. It can assist you in battle with Ward and defensive based skills.",
+    "price": 2000000,
+    "props": [
+      {
+        "attack chance": "5%"
+      },
+      {
+        "buff chance": "10%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 335,
+            "cate": "skills",
+            "name": "Guarding Strike"
+          },
+          {
+            "id": 294,
+            "cate": "skills",
+            "name": "Mend Wall III"
+          },
+          {
+            "id": 655,
+            "cate": "skills",
+            "name": "Provoke II"
+          },
+          {
+            "id": 371,
+            "cate": "skills",
+            "name": "Ward of Ortanite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "cate": "pets",
+    "codex": "/followers/pegasus/",
+    "title": "Pegasus",
+    "tier": 0,
+    "intro": "A beast of great myth. It can assist you in battle with powerful strikes and curative holy magic.",
+    "price": 4000000,
+    "props": [
+      {
+        "heal chance": "12%"
+      },
+      {
+        "spell chance": "5%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 119,
+            "cate": "skills",
+            "name": "Dispel"
+          },
+          {
+            "id": 128,
+            "cate": "skills",
+            "name": "Holy Light"
+          },
+          {
+            "id": 129,
+            "cate": "skills",
+            "name": "Miracle"
+          },
+          {
+            "id": 689,
+            "cate": "skills",
+            "name": "Pray"
+          },
+          {
+            "id": 692,
+            "cate": "skills",
+            "name": "Revive"
+          },
+          {
+            "id": 523,
+            "cate": "skills",
+            "name": "Sacreseal II"
+          },
+          {
+            "id": 524,
+            "cate": "skills",
+            "name": "Sacrestrike II"
+          },
+          {
+            "id": 568,
+            "cate": "skills",
+            "name": "Trample"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "cate": "pets",
+    "codex": "/followers/shade-of-achlys-the-red-dagger/",
+    "title": "Shade of Achlys, the Red Dagger",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Riftfall event, September 2022",
+    "price": 4000000,
+    "props": [
+      {
+        "debuff chance": "9%"
+      },
+      {
+        "spell chance": "9%"
+      },
+      {
+        "protect chance": "3%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 699,
+            "cate": "skills",
+            "name": "Casted Shadows"
+          },
+          {
+            "id": 174,
+            "cate": "skills",
+            "name": "Coup de Grace"
+          },
+          {
+            "id": 702,
+            "cate": "skills",
+            "name": "Dark Sigil"
+          },
+          {
+            "id": 201,
+            "cate": "skills",
+            "name": "Darkstrike III"
+          },
+          {
+            "id": 310,
+            "cate": "skills",
+            "name": "Perfect Shot"
+          },
+          {
+            "id": 81,
+            "cate": "skills",
+            "name": "Sleep Dart"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "cate": "pets",
+    "codex": "/followers/shade-of-rhada-the-great-shield/",
+    "title": "Shade of Rhada, the Great Shield",
+    "tier": 0,
+    "intro": "Available for a limited time only.",
+    "event": "LIMITED: Riftfall event, September 2022",
+    "price": 3500000,
+    "props": [
+      {
+        "attack chance": "2%"
+      },
+      {
+        "buff chance": "8%"
+      },
+      {
+        "debuff chance": "8%"
+      },
+      {
+        "spell chance": "10%"
+      },
+      {
+        "protect chance": "7%"
+      },
+      {
+        "abilities": [
+          "Attack",
+          {
+            "id": 719,
+            "cate": "skills",
+            "name": "Holy Sigil"
+          },
+          {
+            "id": 338,
+            "cate": "skills",
+            "name": "Purifying Strikes"
+          },
+          {
+            "id": 757,
+            "cate": "skills",
+            "name": "Rhada Stomp"
+          },
+          {
+            "id": 336,
+            "cate": "skills",
+            "name": "Ward of Light"
+          },
+          {
+            "id": 371,
+            "cate": "skills",
+            "name": "Ward of Ortanite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "cate": "pets",
+    "codex": "/followers/sif/",
+    "title": "Sif",
+    "tier": 0,
+    "intro": "The follower of the creator.",
+    "price": 0,
+    "props": [
+      {
+        "abilities": [
+          {
+            "id": 419,
+            "cate": "skills",
+            "name": "Beaststrike"
+          },
+          {
+            "id": 426,
+            "cate": "skills",
+            "name": "Emberstrike"
+          },
+          {
+            "id": 213,
+            "cate": "skills",
+            "name": "Onslaught"
+          },
+          {
+            "id": 432,
+            "cate": "skills",
+            "name": "Terrastrike"
+          },
+          {
+            "id": 371,
+            "cate": "skills",
+            "name": "Ward of Ortanite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "cate": "pets",
+    "codex": "/followers/the-mightiest-mimic/",
+    "title": "The Mightiest Mimic",
+    "tier": 0,
+    "intro": "???",
+    "event": "LIMITED: The Mimics are Loose Event, September 2021",
+    "price": 4000000,
+    "props": [
+      {
+        "buff chance": "100%"
+      },
+      {
+        "spell chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 472,
+            "cate": "skills",
+            "name": "Fey Flame IV"
+          },
+          {
+            "id": 476,
+            "cate": "skills",
+            "name": "Fey Flame V"
+          },
+          {
+            "id": 473,
+            "cate": "skills",
+            "name": "Fey Frost IV"
+          },
+          {
+            "id": 477,
+            "cate": "skills",
+            "name": "Fey Frost V"
+          },
+          {
+            "id": 103,
+            "cate": "skills",
+            "name": "Mimic's Mischief"
+          },
+          {
+            "id": 530,
+            "cate": "skills",
+            "name": "Ultima"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "cate": "pets",
+    "codex": "/followers/ymir-amphiptere/",
+    "title": "Ymir Amphiptere",
+    "tier": 0,
+    "intro": "The Great Dragons will bring many skills to battle. Available for a limited time only.",
+    "event": "LIMITED: Draconian Era",
+    "price": 3500000,
+    "props": [
+      {
+        "debuff chance": "15%"
+      },
+      {
+        "spell chance": "12%"
+      },
+      {
+        "protect chance": "4%"
+      },
+      {
+        "abilities": [
+          {
+            "id": 714,
+            "cate": "skills",
+            "name": "Flame VII"
+          },
+          {
+            "id": 716,
+            "cate": "skills",
+            "name": "Frost VII"
+          },
+          {
+            "id": 733,
+            "cate": "skills",
+            "name": "Prismablight"
+          },
+          {
+            "id": 739,
+            "cate": "skills",
+            "name": "Spark VII"
+          },
+          {
+            "id": 744,
+            "cate": "skills",
+            "name": "Tremor VII"
+          }
+        ]
+      }
+    ]
+  }
+]
