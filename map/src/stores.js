@@ -11,7 +11,8 @@ let _dungeonVisibility = DungeonTypes.map(i => ({
 	img: i[0],
 	visible: true,
 	name: i[1],
-})).concat({
+}));
+_dungeonVisibility.unshift({
 	id: 'unknown',
 	visible: true,
 	name: '?',
