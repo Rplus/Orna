@@ -27,7 +27,7 @@
 			class="btn-with-icon leaflet-bar"
 			on:click={() => togglePanel('alt')}
 		>📍</button>
-		<SettingCtrl />
+		<!-- <SettingCtrl /> -->
 		<br><br>
 	</div>
 	<ToggleButton bind:active={active} icons={['🗙', '☰']} />

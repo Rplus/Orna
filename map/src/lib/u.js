@@ -1,19 +1,25 @@
 export const DungeonTypes = [
-	['dungeon', '地城'],
-	['fort', '哥布林要塞'],
-	['mystic_cave', '秘穴'],
-	['beast_den', '野獸巢穴'],
-	['dragon_roost', '巨龍宿巢'],
-	['underworld_portal', '冥府之門'],
-	['chaos_portal', '混沌之門'],
-	['battlegrounds', '絕地戰場'],
-	['valley_of_gods', '眾神之谷'],
-	['coliseum', '羅馬競技場'],
+	['shops/dungeon', '地城'],
+	['shops/fort', '哥布林要塞'],
+	['shops/mystic_cave', '秘穴'],
+	['shops/beast_den', '野獸巢穴'],
+	['shops/dragon_roost', '巨龍宿巢'],
+	['shops/underworld_portal', '冥府之門'],
+	['shops/chaos_portal', '混沌之門'],
+	['shops/battlegrounds', '絕地戰場'],
+	['shops/valley_of_gods', '眾神之谷'],
+	['shops/coliseum', '羅馬競技場'],
+	// ['titan_workshop', '奧林匹克塔'],
+	['bosses/titan_selene', '泰坦塞勒涅'],
+	['bosses/titan_oceanus', '泰坦奧克亞諾斯'],
+	['bosses/titan_eos', '泰坦愛奧斯'],
+	['bosses/titan_prometheus', '泰坦普羅米修斯'],
+	['bosses/titan_themis', '泰坦泰美斯'],
 ];
 
 export function getDungeonImageUrl(type) {
-	let iconUrl = `https://playorna.com/static/img/shops/${type || 'dungeon'}.png`;
-	if (!type) {
+	let iconUrl = `https://playorna.com/static/img/${type || 'dungeon'}.png`;
+	if (!type || type === 'unknown') {
 		iconUrl = genBase64EmojiSvg('❓');
 	}
 	if (type === '⚠️remove') {
@@ -49,6 +55,10 @@ export function genBase64EmojiSvg(emoji, options) {
 	let base64 = window.btoa(decoded);
 	let url = `data:image/svg+xml;base64,${base64}`;
 	return url;
+}
+
+export function imgPathToName(path = '') {
+	return path.split('/').reverse()[0];
 }
 
 // todo

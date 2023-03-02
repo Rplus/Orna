@@ -15,10 +15,12 @@
 
 	import DungeonSelector from './DungeonSelector.svelte';
 	import LatLngInput from './LatLng.svelte';
+	// import DungeonCtrl from './DungeonCtrl.svelte';
 
-	import { getDungeonImageUrl } from './u.js';
+	import { ioHQ, dungeonVisibility } from '../stores.js';
+	import Dialog from './Dialog.svelte';
 
-
+	import { getDungeonImageUrl, imgPathToName } from './u.js';
 
 	let markers = [];
 	fetch(dataUrl).then(r => r.json()).then(d => {
@@ -54,17 +56,34 @@
 				iconAnchor: [size / 2, size],
 				popupAnchor: [0, -size],
 				tooltipAnchor: [0, 2],
-				className: `dungeon-icon dungeon-icon--${type}`,
+				className: `dungeon-icon dungeon-icon--${imgPathToName(type) || 'unknown'}`,
 			});
 		};
 		return iconCache[type];
+	}
+
+	function createBuilding() {
 	}
 
 
 	let tooltipOptions = {
 		direction: 'bottom',
 	};
+
+
+	let dungeonVisibilityStyle = '';
+	$: {
+		let selectors = $dungeonVisibility
+			.filter(i => i.visible)
+			.map(i => `.dungeon-icon.dungeon-icon.dungeon-icon--${i.id}`).join();
+		dungeonVisibilityStyle = selectors ? `<style>${selectors}{display:unset;}</style>` : '';
+	}
+
 </script>
+
+<svelte:head>
+	{@html dungeonVisibilityStyle}
+</svelte:head>
 
 {#each markers as marker, index}
 	<Marker
@@ -146,7 +165,87 @@
 {/each}
 
 
+<!-- <DungeonCtrl /> -->
+{#if $ioHQ.openedPanel === 'dungeon'}
+
+<Dialog>
+	<h3>Dungeons</h3>
+
+	<!--
+	<label class="flex">
+		<input type="checkbox" />
+		hide markers
+	</label>
+	-->
+
+	<button on:click={createBuilding}>+</button>
+	<hr>
+
+	<div>
+		<div style="font-size: 2rem; text-align: center">🙊 🙈 🙉</div>
+		<div class="buildings">
+			{#each $dungeonVisibility as dv}
+				<label class="item">
+					<span class="object">
+						<input type="checkbox" bind:checked={dv.visible}>
+						<div></div>
+						{dv.name}
+					</span>
+					<br>
+					<img
+						alt="dungeon image: {dv.name}"
+						src={getDungeonImageUrl(dv.img)}
+						style="image-rendering: pixelated;"
+						width="64"
+					/>
+				</label>
+			{/each}
+		</div>
+	</div>
+
+</Dialog>
+
+{/if}
+
+
 <style>
+:global(.dungeon-icon.dungeon-icon) {
+	display: none;
+	image-rendering: pixelated;
+}
+.item {
+	position: relative;
+	display: block;
+	border: 1px dashed #0003;
+	padding: 0.5em;
+	list-style: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+input ~ div {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: #00f2;
+	visibility: hidden;
+}
+input:checked + div {
+	visibility: visible;
+}
+
+.buildings {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: .5em;
+}
+.object {
+	display: inline-flex;
+	align-items: center;
+	gap: .25em;
+}
 .timestamp {
 	font-family: monospace;
 	font-size: small;

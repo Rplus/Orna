@@ -1,5 +1,5 @@
 <script>
-	import { DungeonTypes } from './u.js';
+	import { DungeonTypes, imgPathToName } from './u.js';
 	export let type = '';
 </script>
 
@@ -7,7 +7,7 @@
 	<option value="">?</option>
 	{#each DungeonTypes as dungeonType}
 		<option value={dungeonType[0]}>
-			{dungeonType[0]} {dungeonType[1]}
+			{imgPathToName(dungeonType[0])} {dungeonType[1]}
 		</option>
 	{/each}
 
