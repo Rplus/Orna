@@ -8,13 +8,16 @@ export const DungeonTypes = [
 	['shops/chaos_portal', '混沌之門'],
 	['shops/battlegrounds', '絕地戰場'],
 	['shops/valley_of_gods', '眾神之谷'],
-	['shops/coliseum', '羅馬競技場'],
 	// ['titan_workshop', '奧林匹克塔'],
 	['bosses/titan_selene', '泰坦塞勒涅'],
 	['bosses/titan_oceanus', '泰坦奧克亞諾斯'],
 	['bosses/titan_eos', '泰坦愛奧斯'],
 	['bosses/titan_prometheus', '泰坦普羅米修斯'],
 	['bosses/titan_themis', '泰坦泰美斯'],
+	['shops/coliseum', '羅馬競技場'],
+	['shops/arcanist', '奧術商店'],
+	['shops/bestiary', '寵物店'],
+	['shops/bazaar', '市集'],
 ];
 
 export function getDungeonImageUrl(type) {
