@@ -41,7 +41,7 @@
 
 
 {#if location}
-	<Marker latLng={location.latlng} icon={locationIcon}>
+	<Marker latLng={location.latlng} icon={locationIcon} zIndexOffset={-1}>
 		<Circle
 			latLng={location.latlng}
 			radius={location.accuracy}
