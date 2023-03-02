@@ -19,7 +19,7 @@
 			"type": "Feature",
 			"properties": {
 				"name": "B",
-				"type": "mystic_cave"
+				"type": "shops/mystic_cave"
 			},
 			"geometry": {
 				"type": "Point",
@@ -33,7 +33,7 @@
 			"type": "Feature",
 			"properties": {
 				"name": "C",
-				"type": "dungeon"
+				"type": "shops/dungeon"
 			},
 			"geometry": {
 				"type": "Point",
