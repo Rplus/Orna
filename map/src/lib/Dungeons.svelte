@@ -183,19 +183,19 @@
 
 	<div>
 		<div style="font-size: 2rem; text-align: center">🙊 🙈 🙉</div>
-		<div class="buildings">
+		<div class="buildings-ctrl">
 			{#each $dungeonVisibility as dv}
-				<label class="item">
-					<span class="object">
-						<input type="checkbox" bind:checked={dv.visible}>
-						<div></div>
+				<label class="buildings-ctrl-label">
+					<span class="buildings-ctrl-title">
+						<input class="buildings-ctrl-checkbox" type="checkbox" bind:checked={dv.visible}>
+						<div class="buildings-ctrl-bgc" />
 						{dv.name}
 					</span>
 					<br>
 					<img
 						alt="dungeon image: {dv.name}"
 						src={getDungeonImageUrl(dv.img)}
-						style="image-rendering: pixelated;"
+						style="image-rendering: pixelated; margin-left: 1.25em;"
 						width="64"
 					/>
 				</label>
@@ -213,7 +213,7 @@
 	display: none;
 	image-rendering: pixelated;
 }
-.item {
+.buildings-ctrl-label {
 	position: relative;
 	display: block;
 	border: 1px dashed #0003;
@@ -222,7 +222,7 @@
 	cursor: pointer;
 	overflow: hidden;
 }
-input ~ div {
+.buildings-ctrl-checkbox ~ .buildings-ctrl-bgc {
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -232,16 +232,16 @@ input ~ div {
 	background-color: #00f2;
 	visibility: hidden;
 }
-input:checked + div {
+.buildings-ctrl-checkbox:checked ~ .buildings-ctrl-bgc {
 	visibility: visible;
 }
 
-.buildings {
+.buildings-ctrl {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: .5em;
 }
-.object {
+.buildings-ctrl-title {
 	display: inline-flex;
 	align-items: center;
 	gap: .25em;
