@@ -15,7 +15,6 @@
 
 	import DungeonSelector from './DungeonSelector.svelte';
 	import LatLngInput from './LatLng.svelte';
-	// import DungeonCtrl from './DungeonCtrl.svelte';
 
 	import { ioHQ, dungeonVisibility, map } from '../stores.js';
 	import Dialog from './Dialog.svelte';

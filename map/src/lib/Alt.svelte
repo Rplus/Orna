@@ -74,7 +74,6 @@
 	}
 
 	function checkDataChanged() {
-		console.log('checkDataChanged');
 		for (var i = alts.length - 1; i >= 0; i--) {
 			let altData = pickAltData(alts[i]);
 			alts[i].changed = !lodash.isEqual(saved_alts[i], altData);
