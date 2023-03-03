@@ -7,7 +7,7 @@
 	<option value="">?</option>
 	{#each DungeonTypes as dungeonType}
 		<option value={dungeonType[0]}>
-			{imgPathToName(dungeonType[0])} {dungeonType[1]}
+			{dungeonType[1]} {imgPathToName(dungeonType[0])}
 		</option>
 	{/each}
 
