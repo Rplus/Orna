@@ -198,15 +198,15 @@
 
 {#if $ioHQ.openedPanel === 'alt'}
 	<Dialog>
-		<h3>Portals</h3>
+		<h3>
+			<button on:click={add}>+</button>
+			Portals
+		</h3>
 
 		<label class="flex">
 			<input type="checkbox" bind:checked={$ioHQ.hideAltMarkers} />
 			hide portal markers
 		</label>
-
-		<hr>
-		<button on:click={add}>+</button>
 
 		{#each alts as alt, index}
 			<AltCard meta={alt} />

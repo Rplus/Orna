@@ -173,7 +173,8 @@
 						on:click={() => renewMarker(index)}
 						disabled={!editable}
 					>
-						🗘 Check
+						<!-- 🗘  -->
+						Check
 					</button>
 				</div>
 			</div>
@@ -187,17 +188,10 @@
 {#if $ioHQ.openedPanel === 'dungeon'}
 
 <Dialog>
-	<h3>Dungeons</h3>
-
-	<!--
-	<label class="flex">
-		<input type="checkbox" />
-		hide markers
-	</label>
-	-->
-
-	<button on:click={createBuilding}>+</button>
-	<hr>
+	<h3>
+		<button on:click={createBuilding}>+</button>
+		Dungeons
+	</h3>
 
 	<div>
 		<div style="font-size: 2rem; text-align: center">🙊 🙈 🙉</div>
@@ -273,5 +267,6 @@
 .dungeon-img {
 	display: block;
 	margin: auto;
+	image-rendering: pixelated;
 }
 </style>
