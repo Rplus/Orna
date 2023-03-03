@@ -17,7 +17,7 @@
 	import LatLngInput from './LatLng.svelte';
 	// import DungeonCtrl from './DungeonCtrl.svelte';
 
-	import { ioHQ, dungeonVisibility } from '../stores.js';
+	import { ioHQ, dungeonVisibility, map } from '../stores.js';
 	import Dialog from './Dialog.svelte';
 
 	import {
@@ -25,6 +25,8 @@
 		imgPathToName,
 		getDungeonTypeName,
 	} from './u.js';
+
+	$: _map = $map && $map.getMap && $map.getMap();
 
 	let markers = [];
 	fetch(dataUrl).then(r => r.json()).then(d => {
@@ -35,8 +37,20 @@
 			}
 			return f;
 		});
+		checkMarkersInView();
+		_map.on('moveend', checkMarkersInView);
 	});
 
+	function checkMarkersInView() {
+		if (!_map) { return; }
+		let mapBounds = _map.getBounds();
+		markers = markers.map(m => {
+			return {
+				...m,
+				inview: mapBounds.contains(m.geometry.latLng),
+			};
+		});
+	}
 
 	let editable = false;
 	function handlePopupClose(argument) {
