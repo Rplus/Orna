@@ -20,6 +20,10 @@ export const DungeonTypes = [
 	['shops/bazaar', '市集'],
 ];
 
+export function getDungeonTypeName(type = '') {
+	return DungeonTypes.find(i => i[0] === type)?.[1] || type;
+}
+
 export function getDungeonImageUrl(type) {
 	let iconUrl = `https://playorna.com/static/img/${type || 'dungeon'}.png`;
 	if (!type || type === 'unknown') {

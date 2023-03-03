@@ -20,7 +20,11 @@
 	import { ioHQ, dungeonVisibility } from '../stores.js';
 	import Dialog from './Dialog.svelte';
 
-	import { getDungeonImageUrl, imgPathToName } from './u.js';
+	import {
+		getDungeonImageUrl,
+		imgPathToName,
+		getDungeonTypeName,
+	} from './u.js';
 
 	let markers = [];
 	fetch(dataUrl).then(r => r.json()).then(d => {
@@ -94,7 +98,7 @@
 	>
 		{#if marker.properties.type}
 			<Tooltip options={tooltipOptions}>
-				{marker.properties.type}
+				{getDungeonTypeName(marker.properties.type)}
 			</Tooltip>
 		{/if}
 
