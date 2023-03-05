@@ -4,7 +4,7 @@ import { DungeonTypes, imgPathToName } from './lib/u.js';
 
 export const alts = writable(getItem('alts'));
 export const map = writable(null);
-export const ioHQ = writable({});
+export const ioHQ = writable(getItem('ioHQ') || {});
 
 let _dungeonVisibility = DungeonTypes.map(i => ({
 	id: imgPathToName(i[0]),
@@ -16,6 +16,10 @@ _dungeonVisibility.unshift({
 	id: 'unknown',
 	visible: true,
 	name: '?',
+});
+
+ioHQ.subscribe(value => {
+	saveItem('ioHQ', value);
 });
 
 export const dungeonVisibility = writable(getItem('dungeon_visibility') || _dungeonVisibility);
