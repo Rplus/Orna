@@ -87,24 +87,6 @@ button:focus {
 	border-color: #666;
 }
 
-dialog {
-	z-index: 1000;
-	position: fixed;
-	top: 0;
-	left: unset;
-	right: 0;
-	height: 100vh;
-	margin: unset;
-	overflow-y: auto;
-	overflow-x: hidden;
-}
-
-dialog h3 {
-	margin: .25em 0 .75em;
-	text-align: center;
-	border-bottom: 1px dotted #0003;
-}
-
 ul {
 	padding-inline-start: 1em;
 }
