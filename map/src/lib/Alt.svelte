@@ -175,9 +175,8 @@
 				<hr>
 
 				<div class="action-btns-box">
-
 					<button on:click={() => enableMarkerDraggable(index)}>
-						📌 Enable Draggable
+						📌 Drag
 					</button>
 
 					<button
