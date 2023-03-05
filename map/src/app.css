@@ -176,6 +176,14 @@ ul {
 	display: flex;
 }
 
+.flex-gap-1 {
+	gap: 1em;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
 label.flex {
 	display: flex;
 	align-items: center;
