@@ -26,4 +26,4 @@ export const dungeonVisibility = writable(getItem('dungeon_visibility') || _dung
 dungeonVisibility.subscribe(value => {
 	saveItem('dungeon_visibility', value);
 });
-	saveItem('dungeon_visibility', _dungeonVisibility);
+// saveItem('dungeon_visibility', _dungeonVisibility);
