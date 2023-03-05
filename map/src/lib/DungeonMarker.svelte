@@ -66,7 +66,7 @@
 	</Tooltip>
 
 	<Popup>
-		<fieldset disabled={!editable}>
+		<fieldset disabled={!editable} class:temp={marker._temp}>
 			<legend>
 				ℹ️ Info
 				{#if marker.timestamp}
@@ -150,5 +150,23 @@
 	font-family: monospace;
 	font-size: small;
 	opacity: 0.5;
+}
+
+.temp {
+	position: relative;
+	overflow: hidden;
+}
+
+.temp::before {
+	position: absolute;
+	left: -0.1em;
+	content: 'temp';
+	background-color: #f003;
+	transform: rotate(-30deg);
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #f00;
+	box-shadow: 1em -2em 0 2.5em #f003;
 }
 </style>

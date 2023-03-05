@@ -19,6 +19,7 @@
 	$: _map = $map && $map.getMap && $map.getMap();
 
 	let markers = [];
+	let tempMarkers = [];
 
 	fetch(dataUrl).then(r => r.json()).then(data => {
 		markers = data.map(i => {
@@ -58,6 +59,15 @@
 	// }
 
 	function createBuilding() {
+		let center = _map.getCenter();
+
+		tempMarkers[tempMarkers.length] = {
+			index: +new Date(),
+			lat: center.lat,
+			lng: center.lng,
+			_temp: true,
+			_latLng: center,
+		};
 	}
 
 	let dungeonVisibilityStyle = '';
@@ -78,6 +88,11 @@
 	{#if marker._inview}
 		<DungeonMarker bind:marker={marker} />
 	{/if}
+{/each}
+
+
+{#each tempMarkers as marker (marker.index) }
+	<DungeonMarker bind:marker={marker} />
 {/each}
 
 <!-- DungeonCtrl panel -->
