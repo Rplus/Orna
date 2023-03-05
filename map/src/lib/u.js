@@ -21,7 +21,7 @@ export const DungeonTypes = [
 ];
 
 export function getDungeonTypeName(type = '') {
-	return DungeonTypes.find(i => i[0] === type)?.[1] || type;
+	return DungeonTypes.find(i => i[0] === type)?.[1] || type || '?';
 }
 
 export function getDungeonImageUrl(type) {
