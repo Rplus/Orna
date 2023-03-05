@@ -24,6 +24,22 @@ export function getDungeonTypeName(type = '') {
 	return DungeonTypes.find(i => i[0] === type)?.[1] || type || '?';
 }
 
+const DungeonMarkerIcons = {};
+export function getMarkerIcon(type) {
+	if (!DungeonMarkerIcons[type]) {
+		let size = 36 * 1.25;
+		DungeonMarkerIcons[type] = L.icon({
+			iconUrl: getDungeonImageUrl(type),
+			iconSize: [size, size],
+			iconAnchor: [size / 2, size],
+			popupAnchor: [0, -size],
+			tooltipAnchor: [0, 2],
+			className: `dungeon-icon dungeon-icon--${imgPathToName(type) || 'unknown'}`,
+		});
+	};
+	return DungeonMarkerIcons[type];
+}
+
 export function getDungeonImageUrl(type) {
 	let iconUrl = `https://playorna.com/static/img/${type || 'dungeon'}.png`;
 	if (!type || type === 'unknown') {
