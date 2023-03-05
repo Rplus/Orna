@@ -29,11 +29,7 @@
 		editable = false;
 	}
 
-	console.log(55 ,marker.type);
-
-	$: {
-		// console.log(223, marker);
-	}
+	// console.log(55, 'marker.type', marker.type);
 
 	$: {
 		if (marker._node?.getMarker) {

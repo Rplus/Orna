@@ -5,10 +5,10 @@
 	// import dataUrl from '../marker.geojson?url';
 	import dataUrl from '../fake.data.geo.json?url';
 
-	import DungeonMarker from './DungeonMarker.svelte';
 
 	import { ioHQ, dungeonVisibility, map } from '../stores.js';
 	import Dialog from './Dialog.svelte';
+	import DungeonMarker from './DungeonMarker.svelte';
 
 	import {
 		getDungeonImageUrl,
