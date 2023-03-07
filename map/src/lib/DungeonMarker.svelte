@@ -18,18 +18,13 @@
 	import LatLngInput from './LatLng.svelte';
 	import DungeonSelector from './DungeonSelector.svelte';
 
-	// const dispatch = createEventDispatcher();
-	// function renewMarker(markerIndex) {
-	// 	dispatch('render', markers[markerIndex].geometry.latLng);
-	// }
-
 	let editable = false;
 	let draggable = false;
 	function _handle_popupclose(argument) {
 		editable = false;
 	}
 
-	// console.log(55, 'marker.type', marker.type);
+	// console.log(55, 'marker.type', marker.typ, marker);
 
 	$: {
 		if (marker._node?.getMarker) {
@@ -42,7 +37,6 @@
 		}
 	}
 
-
 	function _handle_dragend(e) {
 		marker._latLng = e.detail.target._latlng;
 		draggable = false;
@@ -51,6 +45,11 @@
 	let tooltipOptions = {
 		direction: 'bottom',
 	};
+
+	const dispatch = createEventDispatcher();
+	function upload() {
+		dispatch('upload', marker);
+	}
 </script>
 
 <Marker
@@ -124,14 +123,17 @@
 			<div>
 				<button
 					disabled={!editable}
+					on:click={upload}
 				>
 					⇧ Upload
 				</button>
+				<!--
 				<button
 					disabled={!editable}
 				>
 					Check
 				</button>
+				-->
 			</div>
 		</div>
 	</Popup>

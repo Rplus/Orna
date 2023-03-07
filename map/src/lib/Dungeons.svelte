@@ -3,10 +3,10 @@
 
 	// const dataUrl = 'https://opensheet.elk.sh/1u89k2oUXRFOLIqVCm6bGXD-2pugwj7RIhM1qBKbT9Zg/data';
 	// import dataUrl from '../marker.geojson?url';
-	import dataUrl from '../fake.data.geo.json?url';
+	// import dataUrl from '../fake.data.geo.json?url';
+	import { urls, uuid, SpreadsheetId } from './consts.js';
 
-
-	import { ioHQ, dungeonVisibility, map } from '../stores.js';
+	import { ioHQ, dungeonVisibility, map, } from '../stores.js';
 	import Dialog from './Dialog.svelte';
 	import DungeonMarker from './DungeonMarker.svelte';
 
@@ -14,24 +14,27 @@
 		getDungeonImageUrl,
 		imgPathToName,
 		getDungeonTypeName,
+		postData,
 	} from './u.js';
 
 	$: _map = $map && $map.getMap && $map.getMap();
 
+	loadData();
+
+	const props = ['index', 'lat', 'lng', 'type', 'name', 'timestamp', 'note',];
+
 	let markers = [];
 	let tempMarkers = [];
 
-	fetch(dataUrl).then(r => r.json()).then(data => {
-		markers = data.map(i => {
+	function transData(data) {
+		return data.map(i => {
 			return {
 				...i,
 				// index: i.index || +new Date(),
 				_latLng: L.GeoJSON.coordsToLatLng([i.lng, i.lat]),
 			}
 		});
-		checkMarkersInView();
-		_map.on('moveend', checkMarkersInView);
-	});
+	}
 
 	function checkMarkersInView() {
 		if (!_map) {
@@ -46,17 +49,6 @@
 			};
 		});
 	}
-
-	// let editable = false;
-	// function handlePopupClose(argument) {
-	// 	editable = false;
-	// }
-
-
-	// const dispatch = createEventDispatcher();
-	// function renewMarker(markerIndex) {
-	// 	dispatch('render', markers[markerIndex].geometry.latLng);
-	// }
 
 	function createBuilding() {
 		let center = _map.getCenter();
@@ -78,6 +70,56 @@
 		dungeonVisibilityStyle = selectors ? `<style>${selectors}{display:unset;}</style>` : '';
 	}
 
+	let isUploading = false; // allow upload only one marker data at same time
+	function uploadMarker(e) {
+		if (isUploading) {
+			alert('Uploading another marker data, please wait.');
+			return;
+		}
+
+		let marker = e.detail;
+		console.log(111, 'uploadMarker', marker);
+
+		let newMarker = {
+			index: (!marker._temp && marker.index) ? marker.index : null,
+			lat: marker._latLng.lat,
+			lng: marker._latLng.lng,
+			name: marker.name || '',
+			type: marker.type || '',
+			uuid,
+			sheetId: SpreadsheetId,
+		}
+
+		// post to gdrive~
+		postData(urls.post, { data: newMarker })
+			.then(data => {
+				console.log(data);
+				loadData(false);
+			})
+			.catch(error => {
+				// loadData(false);
+				window.alert(error);
+				console.error(error);
+			})
+			.finally(() => {
+				isUploading = false;
+			})
+	}
+
+	function loadData(bindChecker = true) {
+		fetch(urls.get).then(r => r.json()).then(data => {
+			markers = transData(data);
+
+			// remove temp marker
+			tempMarkers = [];
+
+			if (bindChecker) {
+				_map.on('moveend', checkMarkersInView);
+			}
+			checkMarkersInView();
+		});
+	}
+
 </script>
 
 <svelte:head>
@@ -86,13 +128,13 @@
 
 {#each markers as marker (marker.index) }
 	{#if marker._inview}
-		<DungeonMarker bind:marker={marker} />
+		<DungeonMarker bind:marker={marker} on:upload={uploadMarker} />
 	{/if}
 {/each}
 
 
 {#each tempMarkers as marker (marker.index) }
-	<DungeonMarker bind:marker={marker} />
+	<DungeonMarker bind:marker={marker} on:upload={uploadMarker} />
 {/each}
 
 <!-- DungeonCtrl panel -->

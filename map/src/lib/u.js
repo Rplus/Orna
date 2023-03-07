@@ -83,5 +83,30 @@ export function imgPathToName(path = '') {
 	return path.split('/').reverse()[0];
 }
 
+export function postData(url, data) {
+	// Default options are marked with *
+	return fetch(url, {
+		body: JSON.stringify(data),
+		cache: 'no-cache',
+		credentials: 'same-origin',
+
+		headers: {
+			// 'user-agent': 'Mozilla/4.0 MDN Example',
+			'content-type': 'application/json',
+			// 'content-type': 'application/x-www-form-urlencoded',
+		},
+		method: 'POST',
+		mode: 'cors', // no-cors, cors, *same-origin
+		redirect: 'follow', // manual, *follow, error
+		referrer: 'no-referrer', // *client, no-referrer
+	})
+	.then(response => {
+		if (response.ok) {
+			return response.json();
+		}
+		throw new Error('Post data fails, network response was not ok.')
+	})
+}
+
 // todo
 // https://www.google.com.tw/search?q=render+marker+in+view+leaflet

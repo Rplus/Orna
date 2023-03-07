@@ -79,9 +79,9 @@
 		mapZoomLevel = detail.target._zoom
 	}
 
-	function reRender({ detail }) {
-		map.getMap().flyTo(detail);
-	}
+	// function reRender({ detail }) {
+	// 	map.getMap().flyTo(detail);
+	// }
 
 	function saveLayer({ detail }) {
 		console.log('123');
@@ -109,7 +109,7 @@
 
 		<Alt />
 
-		<Dungeons on:render={reRender} />
+		<Dungeons />
 
 		<ScaleControl
 			position="bottomright"
