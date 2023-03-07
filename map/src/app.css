@@ -207,3 +207,8 @@ label.flex input:not([type="checkbox"]) {
 	}
 }
 
+
+.danger {
+	color: #f00;
+	font-weight: 900;
+}

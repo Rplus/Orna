@@ -164,7 +164,7 @@
 							<LatLngInput latLng={alt.latLng} readonly />
 						</div>
 
-						<button on:click={() => deleteAlt(index)} style="color:red; font-weight:900;">
+						<button class="danger" on:click={() => deleteAlt(index)}>
 							❌ DELETE
 						</button>
 
