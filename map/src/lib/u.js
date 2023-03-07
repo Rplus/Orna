@@ -39,13 +39,17 @@ export function getMarkerIcon(type) {
 	return DungeonMarkerIcons[type];
 }
 
+const iconMapping = {
+	'⚠️remove': '❌',
+	'unknown': '❓',
+};
 export function getDungeonImageUrl(type) {
 	let iconUrl = `https://playorna.com/static/img/${type || 'dungeon'}.png`;
-	if (!type || type === 'unknown') {
-		iconUrl = genBase64EmojiSvg('❓');
+	if (type && iconMapping[type]) {
+		iconUrl = genBase64EmojiSvg(iconMapping[type]);
 	}
-	if (type === '⚠️remove') {
-		iconUrl = genBase64EmojiSvg('❌');
+	if (!type) {
+		iconUrl = genBase64EmojiSvg('❓');
 	}
 	return iconUrl;
 }
