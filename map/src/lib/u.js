@@ -65,6 +65,14 @@ export function getItem(key) {
 	return key ? data[key] : data;
 };
 
+export function reset() {
+	let confirm = window.confirm('Are you sure to reset all custom settings and markers?');
+	if (confirm) {
+		localStorage.removeItem(STORAGE_KEY);
+		window.alert('Reset! Please reload.');
+	}
+}
+
 
 export function genBase64EmojiSvg(emoji, options) {
 	options = {
@@ -106,6 +114,15 @@ export function postData(url, data) {
 		}
 		throw new Error('Post data fails, network response was not ok.')
 	})
+}
+
+// via https://stackoverflow.com/a/11508164
+export function hexToRgba(hex = '#ffffff', alpha = 1) {
+	var bigint = parseInt(hex.slice(1), 16);
+	var r = (bigint >> 16) & 255;
+	var g = (bigint >> 8) & 255;
+	var b = bigint & 255;
+	return `rgba(${r},${g},${b},${alpha})`;
 }
 
 // todo

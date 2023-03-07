@@ -1,44 +1,47 @@
 <script>
+	import { ioHQ, dungeonIconStyle, } from '../stores.js';
+
+	import {
+		getDungeonImageUrl,
+		reset,
+		// imgPathToName,
+		// getDungeonTypeName,
+		// postData,
+	} from './u.js';
+	import Dialog from './Dialog.svelte';
 </script>
 
-<button class="btn-with-icon leaflet-bar">⚙️</button>
 
+{#if $ioHQ.openedPanel === 'settings'}
+<Dialog>
+	<h3>
+		Settings
+	</h3>
 
-<dialog>
-	<!--
-	<fieldset>
-		<legend>Click type:</legend>
-		<div>
-
-			<label>
-				<input type="radio" name="clickType"
-					value=""
-					bind:group={clicktype}
-				/>
-				-
+	<ul>
+		<li>
+			<h4>Dungeon Icon Style:</h4>
+			<label class="flex">
+				Background color:
+				<input type="color" bind:value={$dungeonIconStyle.bgc}>
+				<input type="text" bind:value={$dungeonIconStyle.bgc} size="1">
 			</label>
-
-			<label>
-				<input type="radio" name="clickType"
-					value="vd"
-					bind:group={clicktype}
-				/>
-				VD
+			<label class="flex">
+				Transparency:
+				<input type="range" bind:value={$dungeonIconStyle.bgcAlpha} min="0" max="1" step="0.1">
+				<input type="number" bind:value={$dungeonIconStyle.bgcAlpha} min="0" max="1" step="0.1">
 			</label>
+		</li>
 
-			<label>
-				<input type="radio" name="clickType"
-					value="dungeon"
-					bind:group={clicktype}
-				/>
-				Dungeon
-			</label>
-		</div>
-		<label>
-			mapZoomLevelThreshold
-			<input type="number" bind:value={mapZoomLevelThreshold}>
-		</label>
+		<li>
+			<h4>Info</h4>
+			<div>asd</div>
+		</li>
+	</ul>
 
-	</fieldset>
-	-->
-</dialog>
+	<hr>
+	<button class="danger" on:click={reset}>RESET</button>
+	<hr>
+
+</Dialog>
+{/if}

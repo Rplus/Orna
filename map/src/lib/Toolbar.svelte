@@ -1,7 +1,6 @@
 <script>
-  import {getContext, onDestroy, createEventDispatcher} from 'svelte';
+  import {getContext} from 'svelte';
 	import LocateCtrl from './LocateCtrl.svelte';
-	import SettingCtrl from './SettingCtrl.svelte';
 	import ToggleButton from './ToggleButton.svelte';
 	import { ioHQ } from '../stores.js';
 
@@ -27,7 +26,11 @@
 			class="btn-with-icon leaflet-bar"
 			on:click={() => togglePanel('alt')}
 		>📍</button>
-		<!-- <SettingCtrl /> -->
+
+		<button
+			class="btn-with-icon leaflet-bar"
+			on:click={() => togglePanel('settings')}
+		>⚙️</button>
 		<br><br>
 	</div>
 	<ToggleButton bind:active={active} icons={['🗙', '☰']} />

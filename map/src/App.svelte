@@ -3,6 +3,7 @@
 	import Dungeons from './lib/Dungeons.svelte';
 	import Toolbar from './lib/Toolbar.svelte';
 	import Location from './lib/Location.svelte';
+	import SettingCtrl from './lib/SettingCtrl.svelte';
 	import { LeafletMap, ScaleControl, } from 'svelte-leafletjs';
 	import { layers, labels, } from './lib/map-layers.js';
 	import { saveItem, getItem, } from './lib/u.js';
@@ -110,6 +111,8 @@
 		<Alt />
 
 		<Dungeons />
+
+		<SettingCtrl />
 
 		<ScaleControl
 			position="bottomright"
