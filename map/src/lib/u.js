@@ -1,3 +1,4 @@
+
 export const DungeonTypes = [
 	['bosses/titan_selene', '泰坦‧塞勒涅'],
 	['bosses/titan_oceanus', '泰坦‧奧克亞諾斯'],
@@ -96,16 +97,22 @@ export function imgPathToName(path = '') {
 }
 
 export function postData(url, data) {
-	// Default options are marked with *
+	let qs = new URLSearchParams({
+		index: data.index || '', // index
+		lat: data.lat, // lat
+		lng: data.lng, // lng
+		type: data.type || '', // type
+		name: data.name || '', // name
+		uuid: data.uuid, // uuid
+	});
+
 	return fetch(url, {
-		body: JSON.stringify(data),
+		body: qs.toString(),
+		// body: JSON.stringify(data),
 		cache: 'no-cache',
 		credentials: 'same-origin',
-
 		headers: {
-			// 'user-agent': 'Mozilla/4.0 MDN Example',
-			'content-type': 'application/json',
-			// 'content-type': 'application/x-www-form-urlencoded',
+			'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
 		},
 		method: 'POST',
 		mode: 'cors', // no-cors, cors, *same-origin

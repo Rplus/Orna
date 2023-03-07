@@ -96,6 +96,11 @@
 				<summary>Position:</summary>
 				<div>
 					<LatLngInput latLng={marker._latLng} />
+
+					<label class="flex">
+						<span class="dir-icon">#</span><code>Index</code>
+						<input type="number" value={marker.index} readonly disabled>
+					</label>
 				</div>
 			</details>
 		</fieldset>
