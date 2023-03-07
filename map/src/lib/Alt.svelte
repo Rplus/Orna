@@ -103,7 +103,7 @@
 		    lat: latLng.lat,
 		    lng: latLng.lng,
 		  },
-		  vd: 500
+		  vd: $ioHQ.vd,
 		}
 	}
 

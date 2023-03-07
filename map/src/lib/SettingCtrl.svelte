@@ -34,6 +34,11 @@
 		</li>
 
 		<li>
+			<h4>Default view distance</h4>
+			<input type="number" bind:value={$ioHQ.vd} min="0" max="1500" step="1">
+		</li>
+
+		<li>
 			<h4>Info</h4>
 			<div>asd</div>
 		</li>
