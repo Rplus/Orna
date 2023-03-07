@@ -27,9 +27,13 @@ dialog {
 	right: 0;
 	z-index: 1000;
 	height: 100vh;
+	min-width: 250px;
 	margin: unset;
 	overflow-y: auto;
 	overflow-x: hidden;
+	background: #fffc;
+	border: unset;
+	box-shadow: 0 0 .5em #000;
 }
 
 dialog :global(h3) {
@@ -48,8 +52,8 @@ dialog :global(h3) {
   place-content: center;
   place-items: center;
   cursor: pointer;
-  opacity: 0.35;
-  border: 2em solid #0002;
+  opacity: 0.5;
+  border: 2em solid #0003;
   border-right-color: #0000;
   border-bottom-color: #0000;
   background: transparent;
