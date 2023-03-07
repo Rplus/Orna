@@ -52,17 +52,17 @@ export function getDungeonImageUrl(type) {
 
 const STORAGE_KEY = 'Orna/map';
 export function saveItem(key, data) {
-  if (!data || !key) { return false;}
-  let odata = getItem() || {};
-  odata[key] = data;
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(odata));
+	if (!data || !key) { return false;}
+	let odata = getItem() || {};
+	odata[key] = data;
+	localStorage.setItem(STORAGE_KEY, JSON.stringify(odata));
 };
 
 export function getItem(key) {
-  let data = localStorage.getItem(STORAGE_KEY);
-  if (!data) { return null; }
-  data = JSON.parse(data);
-  return key ? data[key] : data;
+	let data = localStorage.getItem(STORAGE_KEY);
+	if (!data) { return null; }
+	data = JSON.parse(data);
+	return key ? data[key] : data;
 };
 
 
