@@ -119,6 +119,18 @@ ul {
 	height: 100vh;
 }
 
+.map-box::after {
+	content: '🞡';
+	position: fixed;
+	z-index: 400;
+	left: 50%;
+	top: 50%;
+	pointer-events: none;
+	font-size: 3em;
+	transform: translate(-50%, -50%);
+	color: #0006;
+}
+
 .alt-icon {
 	position: absolute;
 	left: 50%;
