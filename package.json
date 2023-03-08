@@ -1,0 +1,27 @@
+{
+  "name": "orna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rplus/Orna.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rplus/Orna/issues"
+  },
+  "homepage": "https://github.com/Rplus/Orna#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
