@@ -6,6 +6,10 @@ export const alts = writable(getItem('alts'));
 export const map = writable(null);
 export const ioHQ = writable(getItem('ioHQ') || {
 	vd: 500,
+	mapOptions: {
+		center: [25.04873, 121.51361],
+		zoom: 15,
+	},
 });
 
 ioHQ.subscribe(value => {

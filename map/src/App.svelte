@@ -8,14 +8,13 @@
 	import { layers, labels, } from './lib/map-layers.js';
 	import { saveItem, getItem, } from './lib/u.js';
 	import * as stores from './stores.js';
+	import { ioHQ } from './stores.js';
+	import * as lodash from 'lodash-es';
 
 	let map;
 	let mapZoomLevel = 15;
+	let _map;
 
-	const mapOptions = {
-		center: [25.050438312613306, 121.57201409339905],
-		zoom: mapZoomLevel,
-	};
 
 	let mapInited = false;
 	$: {
@@ -26,12 +25,14 @@
 	}
 	function mapInit() {
 		mapInited = true;
-		let _map = map.getMap();
+		_map = map.getMap();
 
 		// init layers
 		let layerName = getItem('custom-layer') || 'Stamen.Watercolor';
 		layers[layerName].addTo(_map);
 		L.control.layers(layers, labels).addTo(_map);
+
+		_map.on('moveend', lodash.debounce(updateMapCenter, 300));
 
 		//
 		toolbarInit(_map);
@@ -58,6 +59,16 @@
 	function saveLayer({ detail }) {
 		saveItem('custom-layer', detail.name);
 	}
+
+	function updateMapCenter(e) {
+		let center = _map?.getCenter();
+		if (center) {
+			$ioHQ.mapOptions = {
+				center: [center.lat || 0, center.lng || 0],
+				zoom: e.target._zoom,
+			}
+		}
+	}
 </script>
 
 
@@ -67,7 +78,7 @@
 <div class="map-box">
 	<LeafletMap
 		bind:this={map}
-		options={mapOptions}
+		options={$ioHQ.mapOptions}
 		events={['baselayerchange']}
 		on:baselayerchange={saveLayer}
 	>
