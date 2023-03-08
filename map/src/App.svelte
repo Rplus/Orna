@@ -11,7 +11,6 @@
 
 	let map;
 	let mapZoomLevel = 15;
-	let mapZoomLevelThreshold = 12;
 
 	const mapOptions = {
 		center: [25.050438312613306, 121.57201409339905],
@@ -56,36 +55,7 @@
 		toolbar.addTo(_map);
 	}
 
-
-	let showVD = true;
-	let clicktype = '';
-
-	function clickMap({ detail }) {
-		// console.log('clickmap', clicktype, [lat, lng]);
-		// let { lat, lng } = e.detail.latlng;
-		switch (clicktype) {
-			case 'vd':
-				break;
-
-			case 'dungeon':
-				console.log(`新增DG@${detail.latlng}`);
-				break;
-
-			default:
-				break;
-		}
-	}
-
-	function zoomMap({ detail }) {
-		mapZoomLevel = detail.target._zoom
-	}
-
-	// function reRender({ detail }) {
-	// 	map.getMap().flyTo(detail);
-	// }
-
 	function saveLayer({ detail }) {
-		console.log('123');
 		saveItem('custom-layer', detail.name);
 	}
 </script>
@@ -94,16 +64,11 @@
 
 
 
-<div
-	class="map-box"
-	class:hide-marker={mapZoomLevel < mapZoomLevelThreshold}
->
+<div class="map-box">
 	<LeafletMap
 		bind:this={map}
 		options={mapOptions}
-		events={['zoom', 'click', 'baselayerchange']}
-		on:zoom={zoomMap}
-		on:click={clickMap}
+		events={['baselayerchange']}
 		on:baselayerchange={saveLayer}
 	>
 		<Location />
