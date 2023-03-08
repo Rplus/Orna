@@ -6,13 +6,13 @@
 <select bind:value={type}>
 	<option value="">?</option>
 	{#each DungeonTypes as dungeonType}
-		<option value={dungeonType[0]}>
+		<option value={dungeonType[0]} disabled={!dungeonType[0].includes('boss')}>
 			{dungeonType[1]} {imgPathToName(dungeonType[0])}
 		</option>
 	{/each}
 
 	<optgroup label="-----------------------">
-		<option value="⚠️remove">⚠️ Remove 刪除地城 ⚠️</option>
+		<option value="⚠️remove">⚠️ Remove 刪除 ⚠️</option>
 	</optgroup>
 </select>
 
