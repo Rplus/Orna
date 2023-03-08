@@ -19,7 +19,7 @@
 	</h3>
 
 	<ul>
-		<li>
+		<li class="mb-2">
 			<h4>Dungeon Icon Style:</h4>
 			<label class="flex">
 				Background color:
@@ -33,20 +33,50 @@
 			</label>
 		</li>
 
-		<li>
+		<li class="mb-2">
 			<h4>Default view distance</h4>
 			<input type="number" bind:value={$ioHQ.vd} min="0" max="1500" step="1">
 		</li>
 
-		<li>
+		<li class="mb-2">
+			<h4>Custom map filter:</h4>
+			<label class="flex">
+				<input type="checkbox" bind:checked={$ioHQ.filters.checked}>
+				Show buildings that admin reviewed only.
+			</label>
+
+			<!--
+			<label class="flex">
+				<input type="checkbox" bind:checked={$ioHQ.filters.titanOnly}>
+				Show titan buildings only.
+			</label>
+			-->
+
+			<label class="flex">
+				<input type="checkbox" bind:checked={$ioHQ.filters.hideRemoved}>
+				Hide buildings that be marked as 'removed'.
+			</label>
+
+		</li>
+
+		<li class="mb-2">
 			<h4>Info</h4>
-			<div>asd</div>
+			<div>Made by <a href="">Rplus</a>.🥂</div>
 		</li>
 	</ul>
 
 	<hr>
-	<button class="danger" on:click={reset}>RESET</button>
+	<button class="danger" on:click={reset}>RESET Config</button>
 	<hr>
 
 </Dialog>
 {/if}
+
+
+<style>
+h4 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+</style>

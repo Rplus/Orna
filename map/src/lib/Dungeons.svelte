@@ -19,7 +19,7 @@
 
 	$: _map = $map && $map.getMap && $map.getMap();
 
-	loadData();
+	loadData(true);
 
 	const props = ['index', 'lat', 'lng', 'type', 'name', 'timestamp', 'note',];
 
@@ -70,7 +70,7 @@
 		dungeonVisibilityStyle = selectors ? `<style>${selectors}{display:unset;}</style>` : '';
 	}
 
-	let isUploading = false; // allow upload only one marker data at same time
+	$: isUploading = false; // allow upload only one marker data at same time
 	function uploadMarker(e) {
 		if (isUploading) {
 			alert('Uploading another marker data, please wait.');
@@ -88,6 +88,7 @@
 			uuid,
 		}
 
+		isUploading = true;
 		// post to gdrive~
 		postData(urls.post, newMarker)
 			.then(data => {
@@ -101,14 +102,25 @@
 			})
 			.finally(() => {
 				isUploading = false;
+				window.alert('Upload succeeded!');
 			})
 	}
+	$: {
+		document.documentElement.classList.toggle('is-uploading', isUploading);
+	}
 
-	function loadData(bindChecker = true) {
-		fetch(urls.get).then(r => r.json()).then(data => {
+	$: {
+		$ioHQ.filters;
+		loadData();
+	}
+
+	function loadData(bindChecker = false) {
+		let filter = Object.values($ioHQ.filters).map(Number).join('');
+		fetch(urls.get + `&filter=${filter}`).then(r => r.json()).then(data => {
+			console.log('fetched Data', data.data);
 			markers = transData(data.data);
 
-			// remove temp marker
+			// reset temp markers
 			tempMarkers = [];
 
 			if (bindChecker) {
@@ -142,6 +154,10 @@
 	<h3>
 		<button on:click={createBuilding}>+</button>
 		Dungeons
+		<br>
+		<small>
+			count: {markers.length}
+		</small>
 	</h3>
 
 	<div>
@@ -209,5 +225,23 @@
 	display: inline-flex;
 	align-items: center;
 	gap: .25em;
+}
+
+:global(:root.is-uploading) {
+	pointer-events: none;
+}
+:global(:root.is-uploading::before) {
+	content: '⌛ Uploading...';
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 2em;
+	font-weight: 900;
+	line-height: 2;
+	background-color: #0006;
+	color: #fff;
+	z-index: 10000;
 }
 </style>

@@ -24,6 +24,26 @@ export function getDungeonTypeName(type = '') {
 	return DungeonTypes.find(i => i[0] === type)?.[1] || type || '?';
 }
 
+// let towers = [
+// 	'bosses/titan_selene',
+// 	'bosses/titan_eos',
+// 	'bosses/titan_oceanus',
+// 	'bosses/titan_themis',
+// 	'bosses/titan_prometheus',
+// ]
+// export function getTowerFloors() {
+// 	const basic_floor = 15;
+// 	const time = new Date();
+// 	const week = time.getUTCDay();
+// 	const hour = time.getUTCHours();
+// 	const growth_date = hour && Math.floor(hour / 5) + 1;
+// 	return towers.reduce((all, tower, index) => {
+// 		let growth_day = (7 + week - index) % 7;
+// 		let floor = basic_floor + growth_day * 5 + growth_date;
+// 		all[tower] = floor;
+// 	}, all);
+// }
+
 const DungeonMarkerIcons = {};
 export function getMarkerIcon(type) {
 	if (!DungeonMarkerIcons[type]) {

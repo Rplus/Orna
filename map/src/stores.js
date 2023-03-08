@@ -4,7 +4,14 @@ import { DungeonTypes, imgPathToName, hexToRgba } from './lib/u.js';
 
 export const alts = writable(getItem('alts'));
 export const map = writable(null);
-export const ioHQ = writable(getItem('ioHQ') || { vd: 500, });
+export const ioHQ = writable(getItem('ioHQ') || {
+	vd: 500,
+	filters: {
+		checked: false,
+		titanOnly: true,
+		hideRemoved: true,
+	},
+});
 
 ioHQ.subscribe(value => {
 	saveItem('ioHQ', value);

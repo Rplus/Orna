@@ -9,7 +9,6 @@ const scriptId = 'AKfycbxd5C3UrBvu3ldvmB29ahpyQBJg7DIFfKpGRa04Tf-5xoACjacmGOWN-c
 const scriptUrl = `https://script.google.com/macros/s/${scriptId}/exec?id=${SpreadsheetId}`;
 // const scriptUrl = `https://script.google.com/macros/s/${scriptId}/dev?id=${SpreadsheetId}`;
 // const formUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScui2hv0qxmzxIIjIgTyI1FNCNvpbyI-UKBdfd5OjO1gVdVIA/formResponse';
-console.log(scriptUrl);
 
 export const urls = {
 	post: scriptUrl,
@@ -22,4 +21,3 @@ export const uuid = _uuid || crypto.randomUUID();
 if (!_uuid) {
 	saveItem('uuid', uuid);
 }
-

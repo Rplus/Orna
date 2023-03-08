@@ -228,6 +228,10 @@ label.flex input:not([type="checkbox"]) {
 	margin-left: 1em;
 }
 
+.mb-2 {
+	margin-bottom: 2em;
+}
+
 .danger {
 	color: #f00;
 	font-weight: 900;
