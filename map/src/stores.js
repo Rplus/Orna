@@ -6,15 +6,21 @@ export const alts = writable(getItem('alts'));
 export const map = writable(null);
 export const ioHQ = writable(getItem('ioHQ') || {
 	vd: 500,
-	filters: {
-		checked: false,
-		titanOnly: true,
-		hideRemoved: true,
-	},
 });
 
 ioHQ.subscribe(value => {
+	console.log('ioHQ saved');
 	saveItem('ioHQ', value);
+});
+
+export const filters = writable(getItem('filters') || {
+	checked: false,
+	titanOnly: true,
+	hideRemoved: true,
+});
+
+filters.subscribe(value => {
+	saveItem('filters', value);
 });
 
 

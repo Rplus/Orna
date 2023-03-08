@@ -1,5 +1,5 @@
 <script>
-	import { ioHQ, dungeonIconStyle, } from '../stores.js';
+	import { ioHQ, filters, dungeonIconStyle, } from '../stores.js';
 
 	import {
 		getDungeonImageUrl,
@@ -41,19 +41,19 @@
 		<li class="mb-2">
 			<h4>Custom map filter:</h4>
 			<label class="flex">
-				<input type="checkbox" bind:checked={$ioHQ.filters.checked}>
+				<input type="checkbox" bind:checked={$filters.checked}>
 				Show buildings that admin reviewed only.
 			</label>
 
 			<!--
 			<label class="flex">
-				<input type="checkbox" bind:checked={$ioHQ.filters.titanOnly}>
+				<input type="checkbox" bind:checked={$filters.titanOnly}>
 				Show titan buildings only.
 			</label>
 			-->
 
 			<label class="flex">
-				<input type="checkbox" bind:checked={$ioHQ.filters.hideRemoved}>
+				<input type="checkbox" bind:checked={$filters.hideRemoved}>
 				Hide buildings that be marked as 'removed'.
 			</label>
 

@@ -6,7 +6,7 @@
 	// import dataUrl from '../fake.data.geo.json?url';
 	import { urls, uuid, } from './consts.js';
 
-	import { ioHQ, dungeonVisibility, map, } from '../stores.js';
+	import { ioHQ, dungeonVisibility, map, filters, } from '../stores.js';
 	import Dialog from './Dialog.svelte';
 	import DungeonMarker from './DungeonMarker.svelte';
 
@@ -110,13 +110,14 @@
 	}
 
 	$: {
-		$ioHQ.filters;
+		$filters;
 		loadData();
 	}
 
 	function loadData(bindChecker = false) {
-		let filter = Object.values($ioHQ.filters).map(Number).join('');
-		fetch(urls.get + `&filter=${filter}`).then(r => r.json()).then(data => {
+		let filter = Object.values($filters).map(Number).join('');
+		let url = urls.get + `&filter=${filter}`;
+		fetch(url).then(r => r.json()).then(data => {
 			console.log('fetched Data', data.data);
 			markers = transData(data.data);
 
