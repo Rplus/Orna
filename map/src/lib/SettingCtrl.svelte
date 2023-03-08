@@ -61,7 +61,7 @@
 
 		<li class="mb-2">
 			<h4>Info</h4>
-			<div>Made by <a href="">Rplus</a>.🥂</div>
+			<div>Made by <a href="https://github.com/Rplus" target="_blank">Rplus</a>.🥂</div>
 		</li>
 	</ul>
 
