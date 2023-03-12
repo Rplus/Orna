@@ -39,6 +39,12 @@ _dungeonVisibility.unshift({
 	visible: true,
 	name: '?',
 });
+_dungeonVisibility.push({
+	id: '⚠️remove',
+	visible: true,
+	img: '⚠️remove',
+	name: 'x',
+});
 export const dungeonVisibility = writable(getItem('dungeon_visibility') || _dungeonVisibility);
 dungeonVisibility.subscribe(value => {
 	saveItem('dungeon_visibility', value);
