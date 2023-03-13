@@ -33,7 +33,7 @@
 		>⚙️</button>
 		<br><br>
 	</div>
-	<ToggleButton bind:active={active} icons={['🗙', '☰']} />
+	<ToggleButton bind:active={active} icons={['✕', '☰']} />
 </div>
 
 

@@ -64,7 +64,7 @@ dialog :global(h3) {
 }
 
 .close-btn::before {
-	content: '🗙';
+	content: '✕';
 	color: #000;
 	position: absolute;
   font-size: 2rem;

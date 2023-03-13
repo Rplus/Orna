@@ -121,7 +121,7 @@ ul {
 }
 
 .map-box::after {
-	content: '🞡';
+	content: '+';
 	position: fixed;
 	z-index: 400;
 	left: 50%;
