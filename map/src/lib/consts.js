@@ -17,7 +17,7 @@ export const urls = {
 };
 
 let _uuid = getItem('uuid');
-export const uuid = _uuid || crypto.randomUUID();
+export const uuid = _uuid || (crypto.randomUUID && crypto.randomUUID()) || +new Date();
 if (!_uuid) {
 	saveItem('uuid', uuid);
 }
