@@ -219,11 +219,13 @@ label.flex input:not([type="checkbox"]) {
 }
 
 
+/*
 @media (prefers-color-scheme: dark) {
 	img.leaflet-tile {
 		filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 	}
 }
+*/
 
 .ml-1 {
 	margin-left: 1em;
