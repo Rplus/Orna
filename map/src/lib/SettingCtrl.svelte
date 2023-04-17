@@ -61,6 +61,9 @@
 
 		<li class="mb-2">
 			<h4>Info</h4>
+			<div>
+				<a href="https://github.com/Rplus/Orna/wiki" target="_blank">Usage Guide [en] / 操作指南 [中文]</a>
+			</div>
 			<div>Made by <a href="https://github.com/Rplus" target="_blank">Rplus</a>.🥂</div>
 		</li>
 	</ul>
