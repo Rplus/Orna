@@ -69,8 +69,9 @@
 			<legend>
 				ℹ️ Info
 				{#if marker.timestamp}
+					<wbr>
 					<span class="timestamp">
-						⌚: {new Date(marker.timestamp).toJSON()}
+						⌚ {new Date(marker.timestamp).toJSON()}
 					</span>
 				{/if}
 			</legend>
@@ -155,8 +156,14 @@
 
 .timestamp {
 	font-family: monospace;
-	font-size: small;
+	font-size: smaller;
 	opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+	.timestamp {
+		display: block;
+	}
 }
 
 .temp {
