@@ -86,6 +86,7 @@ dialog :global(h3) {
 	color: #000;
 	position: absolute;
   font-size: 2rem;
+  line-height: 0;
 }
 
 .close-btn {
