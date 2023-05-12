@@ -5,7 +5,8 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   base: '/Orna/map/',
   build: {
-    outDir: '../dist/map'
+    outDir: '../dist/map',
+    emptyOutDir: true,
   },
   plugins: [svelte()]
 })
