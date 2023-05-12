@@ -4,6 +4,11 @@
 	function closePanel() {
 		$ioHQ.openedPanel = ''
 	}
+
+	function shrinkPanel() {
+		$ioHQ.shrinkPanel = !$ioHQ.shrinkPanel;
+		console.log('$ioHQ.shrinkPanel', $ioHQ.shrinkPanel);
+	}
 </script>
 
 <dialog open
@@ -12,8 +17,17 @@
 	on:mousedown|stopPropagation
 	on:touchstart|stopPropagation
 	on:wheel|stopPropagation
+	class:shrink={$ioHQ.shrinkPanel}
 >
-	<button class="close-btn" on:click|stopPropagation={closePanel} />
+	<button
+		class="dialog-btn close-btn"
+		on:click|stopPropagation={closePanel}
+	/>
+
+	<button
+		class="dialog-btn shrink-btn"
+		on:click|stopPropagation={shrinkPanel}
+	/>
 
 	<slot />
 </dialog>
@@ -34,6 +48,12 @@ dialog {
 	background: #fffc;
 	border: unset;
 	box-shadow: 0 0 .5em #000;
+	transition: height .1s;
+}
+
+dialog.shrink {
+	/* overflow-y: hidden; */
+	height: 4.5em;
 }
 
 dialog :global(h3) {
@@ -42,10 +62,9 @@ dialog :global(h3) {
 	border-bottom: 1px dotted #0003;
 }
 
-.close-btn {
+.dialog-btn {
 	position: absolute;
 	top: 0;
-	left: 0;
 	margin: 0;
 	padding: 0;
 	display: inline-flex;
@@ -54,19 +73,33 @@ dialog :global(h3) {
   cursor: pointer;
   opacity: 0.5;
   border: 2em solid #0003;
-  border-right-color: #0000;
   border-bottom-color: #0000;
   background: transparent;
 }
 
-.close-btn:focus-visible {
+.dialog-btn:focus-visible {
 	outline: 2px solid #000;
 }
 
-.close-btn::before {
-	content: '✕';
+.dialog-btn::before {
+	content: var(--dialog-btn-symbol, '');
 	color: #000;
 	position: absolute;
   font-size: 2rem;
+}
+
+.close-btn {
+	--dialog-btn-symbol: '✕';
+	left: 0;
+  border-right-color: #0000;
+}
+
+.shrink-btn {
+	--dialog-btn-symbol: '🗁';
+	right: 0;
+  border-left-color: #0000;
+}
+dialog.shrink .shrink-btn {
+	--dialog-btn-symbol: '🗀';
 }
 </style>
