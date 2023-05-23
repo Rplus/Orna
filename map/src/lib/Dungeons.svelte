@@ -27,7 +27,9 @@
 	let tempMarkers = [];
 
 	function transData(data) {
-		return data.map(i => {
+		return data
+		.filter(i => Number(i.lng) && Number(i.lat))
+		.map(i => {
 			return {
 				...i,
 				// index: i.index || +new Date(),
