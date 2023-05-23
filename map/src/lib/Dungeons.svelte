@@ -81,6 +81,11 @@
 
 		let marker = e.detail;
 
+		if (!Number(marker._latLng.lat) || !marker._latLng.lng) {
+			alert('Wrong point');
+			return;
+		}
+
 		let newMarker = {
 			index: (!marker._temp && marker.index) ? marker.index : null,
 			lat: marker._latLng.lat,
